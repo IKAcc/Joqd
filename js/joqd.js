@@ -11,7 +11,7 @@
                             \|__|
 
 						Joqd Framework
-						Created by @setarekarimi1 and @JavidIzadfar
+						Created by @setarekarimi and @JavidIzadfar
 						Last edit on July 28, 2016
 */
 
