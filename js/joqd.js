@@ -11,8 +11,8 @@
                             \|__|
 
 						Joqd Framework
-						Created by @setarekarimi1 and @JavidIzadfar
-            Last edit on July 19, 2016
+						Created by @setarekarimi and @JavidIzadfar
+						Last edit on July 28, 2016
 */
 
 /*
@@ -93,10 +93,6 @@ Index
 
           $(element).css('right', -($(element).outerWidth() + 10)); // adjust navside properly
 
-          $(window).resize(function() { // if window
-            $(element).css('right', -($(element).outerWidth() + 10)); // adjust navside properly
-          });
-
           $('body').prepend('<div id="navsideTempWrapper" class="joqd close-navside"></div>'); // prepend a temp wrapper to body
 
           $('.joqd.open-navside').on('click', function(){ // when opening trigger is clicked
@@ -113,7 +109,7 @@ Index
             $('body').css('overflow', 'auto'); // enable scroll
 
             $('#navsideTempWrapper').animate({opacity: '0'} , parseInt(settings.toggleSpeed)).css('display', 'none'); // hide temp wrapper
-            $('.navside.dynamic-navside').animate({right: - ($(element).outerWidth() + 10)}, parseInt(settings.toggleSpeed)); // hide navside
+            $(element).animate({right: - ($(element).outerWidth() + 10)}, parseInt(settings.toggleSpeed)); // hide navside
 
           })
 

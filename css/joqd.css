@@ -1,4 +1,4 @@
-﻿/*
+/*
                                 ___
    ___                         |\  \
   |\  \  ________  ________  __\_\  \
@@ -11,8 +11,8 @@
                             \|__|
 
 						Joqd Framework
-						Created by @setarekarimi1 and @JavidIzadfar
-						Last edit on July 19, 2016
+						Created by @setarekarimi and @JavidIzadfar
+						Last edit on July 28, 2016
 */
 
 /*
@@ -178,6 +178,7 @@ Index
 		# 20.2.2 ::::::::::::::::: Card Title whit Avatar
 	# 20.3 :::::::::::::::: Card Content
 	# 20.4 :::::::::::::::: Card Action
+# 21 :::::::::::::::: Table
 
 =================================================================================================
 -------------------------------------------------------------------------------------------------
@@ -6473,3 +6474,23 @@ Index
     :lang(es) .joqd.card .joqd.card-action .joqd.button{
       margin-left: 0px;
       margin-right: 3px;}
+
+/*
+=================================================================================================
+# 21 Table
+-------------------------------------------------------------------------------------------------
+*/
+
+  .joqd.table-container{overflow-x: auto;}
+
+  table{
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;}
+
+  table tr th,
+  table tr td{
+    padding: 12px;
+    white-space: nowrap;}
+
+  table td{font-size: 14px;}

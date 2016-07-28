@@ -1,0 +1,177 @@
+/*
+=================================================================================================
+# 8 Corners
+-------------------------------------------------------------------------------------------------
+*/
+
+	/*
+	=============================================================================================
+	# 8.1 Soft
+	---------------------------------------------------------------------------------------------
+	*/
+
+		.joqd.soft-corner{
+			-webkit-border-radius: 2px;
+			   -moz-border-radius: 2px;
+							border-radius: 2px;}
+
+		.joqd.soft-top-corner{
+			-webkit-border-top-left-radius: 2px;
+			   -moz-border-top-left-radius: 2px;
+							border-top-left-radius: 2px;
+			-webkit-border-top-right-radius: 2px;
+			   -moz-border-top-right-radius: 2px;
+							border-top-right-radius: 2px;}
+
+		.joqd.soft-bottom-corner{
+			-webkit-border-bottom-left-radius: 2px;
+			   -moz-border-bottom-left-radius: 2px;
+							border-bottom-left-radius: 2px;
+			-webkit-border-bottom-right-radius: 2px;
+			   -moz-border-bottom-right-radius: 2px;
+							border-bottom-right-radius: 2px;}
+
+		.joqd.soft-left-corner{
+			-webkit-border-top-left-radius: 2px;
+			   -moz-border-top-left-radius: 2px;
+							border-top-left-radius: 2px;
+			-webkit-border-bottom-left-radius: 2px;
+			   -moz-border-bottom-left-radius: 2px;
+							border-bottom-left-radius: 2px;}
+
+		.joqd.soft-right-corner{
+			-webkit-border-top-right-radius: 2px;
+			   -moz-border-top-right-radius: 2px;
+							border-top-right-radius: 2px;
+			-webkit-border-bottom-right-radius: 2px;
+			   -moz-border-bottom-right-radius: 2px;
+							border-bottom-right-radius: 2px;}
+
+	/*
+	=============================================================================================
+	# 8.2 Sharp
+	---------------------------------------------------------------------------------------------
+	*/
+
+		.joqd.sharp-corner{
+			-webkit-border-radius: 0px;
+			   -moz-border-radius: 0px;
+							border-radius: 0px;}
+
+		.joqd.sharp-top-corner{
+			-webkit-border-top-left-radius: 0px;
+			   -moz-border-top-left-radius: 0px;
+							border-top-left-radius: 0px;
+			-webkit-border-top-right-radius: 0px;
+			   -moz-border-top-right-radius: 0px;
+							border-top-right-radius: 0px;}
+
+		.joqd.sharp-bottom-corner{
+			-webkit-border-bottom-left-radius: 0px;
+			   -moz-border-bottom-left-radius: 0px;
+							border-bottom-left-radius: 0px;
+			-webkit-border-bottom-right-radius: 0px;
+			   -moz-border-bottom-right-radius: 0px;
+							border-bottom-right-radius: 0px;}
+
+		.joqd.sharp-left-corner{
+			-webkit-border-top-left-radius: 0px;
+			   -moz-border-top-left-radius: 0px;
+							border-top-left-radius: 0px;
+			-webkit-border-bottom-left-radius: 0px;
+			   -moz-border-bottom-left-radius: 0px;
+							border-bottom-left-radius: 0px;}
+
+		.joqd.sharp-right-corner{
+			-webkit-border-top-right-radius: 0px;
+			   -moz-border-top-right-radius: 0px;
+							border-top-right-radius: 0px;
+			-webkit-border-bottom-right-radius: 0px;
+			   -moz-border-bottom-right-radius: 0px;
+							border-bottom-right-radius: 0px;}
+
+	/*
+	=============================================================================================
+	# 8.3 Round
+	---------------------------------------------------------------------------------------------
+	*/
+
+		.joqd.round-corner{
+			-webkit-border-radius: 20px;
+			   -moz-border-radius: 20px;
+							border-radius: 20px;}
+
+		.joqd.round-top-corner{
+			-webkit-border-top-left-radius: 20px;
+			   -moz-border-top-left-radius: 20px;
+							border-top-left-radius: 20px;
+			-webkit-border-top-right-radius: 20px;
+			   -moz-border-top-right-radius: 20px;
+							border-top-right-radius: 20px;}
+
+		.joqd.round-bottom-corner{
+			-webkit-border-bottom-left-radius: 20px;
+			   -moz-border-bottom-left-radius: 20px;
+							border-bottom-left-radius: 20px;
+			-webkit-border-bottom-right-radius: 20px;
+			   -moz-border-bottom-right-radius: 20px;
+							border-bottom-right-radius: 20px;}
+
+		.joqd.round-left-corner{
+			-webkit-border-top-left-radius: 20px;
+			   -moz-border-top-left-radius: 20px;
+							border-top-left-radius: 20px;
+			-webkit-border-bottom-left-radius: 20px;
+			   -moz-border-bottom-left-radius: 20px;
+							border-bottom-left-radius: 20px;}
+
+		.joqd.round-right-corner{
+			-webkit-border-top-right-radius: 20px;
+			   -moz-border-top-right-radius: 20px;
+							border-top-right-radius: 20px;
+			-webkit-border-bottom-right-radius: 20px;
+			   -moz-border-bottom-right-radius: 20px;
+							border-bottom-right-radius: 20px;}
+
+	/*
+	=============================================================================================
+	# 8.4 Circle
+	---------------------------------------------------------------------------------------------
+	*/
+
+		.joqd.circle-corner{
+			-webkit-border-radius: 50%;
+			   -moz-border-radius: 50%;
+							border-radius: 50%;}
+
+		.joqd.circle-top-corner{
+			-webkit-border-top-left-radius: 50%;
+			   -moz-border-top-left-radius: 50%;
+							border-top-left-radius: 50%;
+			-webkit-border-top-right-radius: 50%;
+			   -moz-border-top-right-radius: 50%;
+							border-top-right-radius: 50%;}
+
+		.joqd.circle-bottom-corner{
+			-webkit-border-bottom-left-radius: 50%;
+			   -moz-border-bottom-left-radius: 50%;
+							border-bottom-left-radius: 50%;
+			-webkit-border-bottom-right-radius: 50%;
+			   -moz-border-bottom-right-radius: 50%;
+							border-bottom-right-radius: 50%;}
+
+		.joqd.circle-left-corner{
+			-webkit-border-top-left-radius: 50%;
+			   -moz-border-top-left-radius: 50%;
+							border-top-left-radius: 50%;
+			-webkit-border-bottom-left-radius: 50%;
+			   -moz-border-bottom-left-radius: 50%;
+							border-bottom-left-radius: 50%;}
+
+		.joqd.circle-right-corner{
+			-webkit-border-top-right-radius: 50%;
+			   -moz-border-top-right-radius: 50%;
+							border-top-right-radius: 50%;
+			-webkit-border-bottom-right-radius: 50%;
+			   -moz-border-bottom-right-radius: 50%;
+							border-bottom-right-radius: 50%;}

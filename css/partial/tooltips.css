@@ -1,0 +1,14 @@
+/*
+=================================================================================================
+# 10 Tooltips
+-------------------------------------------------------------------------------------------------
+*/
+
+	.joqd.active-tooltip{
+		position: absolute;
+		font-size: 14px;
+		padding: 4px 16px 6px;
+		margin: auto;
+		display: none;}
+
+	.joqd.tooltiped{overflow: visible !important;}
