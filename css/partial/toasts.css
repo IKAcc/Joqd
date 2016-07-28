@@ -1,0 +1,97 @@
+/*
+=================================================================================================
+# 12 Toasts
+-------------------------------------------------------------------------------------------------
+*/
+
+	.joqd.toast-wrapper{
+		    position: fixed;
+		    z-index: 2147483647;}
+
+	.joqd.toast-wrapper .joqd.toast{
+	    background-color: transparent;
+	    padding: 10px;
+	    max-width: 500px;
+	    position: relative;
+	    display: block;
+	    -webkit-transition: 1s all ease-in-out;
+	       -moz-transition: 1s all ease-in-out;
+	         -o-transition: 1s all ease-in-out;
+	            transition: 1s all ease-in-out;}
+
+	.joqd.toast-wrapper .joqd.toast .joqd.toast-content{
+	    padding: 15px 20px;
+	    -webkit-transition: 1s all ease-in-out;
+	       -moz-transition: 1s all ease-in-out;
+	         -o-transition: 1s all ease-in-out;
+	            transition: 1s all ease-in-out;}
+
+	.joqd.toast-wrapper .joqd.toast .joqd.toast-content p{margin-bottom: 0px;}
+
+	/*
+	=============================================================================================
+	# 12.1 Position
+	---------------------------------------------------------------------------------------------
+	*/
+
+		/*
+		=========================================================================================
+		# 12.1.1 Right-Top
+		-----------------------------------------------------------------------------------------
+		*/
+
+			.joqd.toast-wrapper.right-top{
+			    right: 0px;
+			    top: 10px;}
+
+			.joqd.toast-wrapper.right-top .joqd.toast{right: -100%;}
+
+
+			.joqd.toast-wrapper.right-top .joqd.toast.show{right: 0px;}
+
+		/*
+		=========================================================================================
+		# 12.1.2 Left-Top
+		-----------------------------------------------------------------------------------------
+		*/
+
+			.joqd.toast-wrapper.left-top{
+			    left: 0px;
+			    top: 10px;}
+
+			.joqd.toast-wrapper.left-top .joqd.toast{left: -100%;}
+
+
+			.joqd.toast-wrapper.left-top .joqd.toast.show{left: 0px;}
+
+		/*
+		=========================================================================================
+		# 12.1.3 Right-Bottom
+		-----------------------------------------------------------------------------------------
+		*/
+
+			.joqd.toast-wrapper.right-bottom{
+			    right: 0px;
+			    bottom: 10px;}
+
+			.joqd.toast-wrapper.right-bottom .joqd.toast{right: -100%;}
+
+
+			.joqd.toast-wrapper.right-bottom .joqd.toast.show{right: 0px;}
+
+		/*
+		=========================================================================================
+		# 12.1.4 Bottom-Left
+		-----------------------------------------------------------------------------------------
+		*/
+
+			.joqd.toast-wrapper.left-bottom{
+			    left: 0px;
+			    bottom: 10px;}
+
+			.joqd.toast-wrapper.left-bottom .joqd.toast{left: -100%;}
+
+
+			.joqd.toast-wrapper.left-bottom .joqd.toast.show{left: 0px;}
+
+			

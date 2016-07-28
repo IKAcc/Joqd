@@ -1,0 +1,69 @@
+/*
+=================================================================================================
+# 11 Images
+-------------------------------------------------------------------------------------------------
+*/
+
+	img.joqd{display: block;}
+
+	/*
+	=============================================================================================
+	# 11.1 Responsive
+	---------------------------------------------------------------------------------------------
+	*/
+
+		img.joqd.responsive{
+			width: 100%;
+			height: auto;}
+
+	/*
+	=============================================================================================
+	# 11.2 Effects
+	---------------------------------------------------------------------------------------------
+	*/
+
+		.joqd.image-wrapper{position: relative;}
+
+		.joqd.image-wrapper .joqd.image-overlay{
+			display: none;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			right: 0px;
+			top: 0px;}
+
+		.joqd.image-wrapper .joqd.image-overlay .joqd.caption-wrapper{text-align: center;}
+
+		/*
+		=========================================================================================
+		# 11.2.1 Caption
+		-----------------------------------------------------------------------------------------
+		*/
+
+			/* everything is done by jQuery */
+
+		/*
+		=========================================================================================
+		# 11.2.2 Expandable
+		-----------------------------------------------------------------------------------------
+		*/
+
+			.joqd.image-wrapper .joqd.image-overlay.expand-this:hover{cursor: zoom-in;}
+
+			.joqd.image-wrapper .joqd.image-overlay.unexpand-this:hover{cursor: zoom-out;}
+
+			.joqd.image-wrapper.expanded{
+				position: fixed;
+				right: 0px;
+				top: 0px;
+				height: 100vh;
+				width: 100vw;
+				padding: 20px;
+				z-index: 1;}
+
+			.joqd.image-wrapper.expanded img{
+				height: 100% !important;
+				width: auto !important;
+				margin: auto;}
+
+			.joqd.image-wrapper.expanded .joqd.image-overlay{background-color: transparent !important;}

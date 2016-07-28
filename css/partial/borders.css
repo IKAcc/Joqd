@@ -1,0 +1,59 @@
+/*
+=================================================================================================
+# 6 Borders
+-------------------------------------------------------------------------------------------------
+*/
+
+	.joqd.no-border{border: none !important;}
+
+	/*
+	=============================================================================================
+	# 6.1 Thick
+	---------------------------------------------------------------------------------------------
+	*/
+
+		.joqd.thick-border{
+			border-style: solid;
+			border-width: 2px;}
+
+		.joqd.thick-top-border{
+			border-top-style: solid;
+			border-top-width: 2px;}
+
+		.joqd.thick-bottom-border{
+			border-bottom-style: solid;
+			border-bottom-width: 2px;}
+
+		.joqd.thick-left-border{
+			border-left-style: solid;
+			border-left-width: 2px;}
+
+		.joqd.thick-right-border{
+			border-right-style: solid;
+			border-right-width: 2px;}
+
+	/*
+	=============================================================================================
+	# 6.2 Thin
+	---------------------------------------------------------------------------------------------
+	*/
+
+		.joqd.thin-border{
+			border-style: solid;
+			border-width: 1px;}
+
+		.joqd.thin-top-border{
+			border-top-style: solid;
+			border-top-width: 1px;}
+
+		.joqd.thin-bottom-border{
+			border-bottom-style: solid;
+			border-bottom-width: 1px;}
+
+		.joqd.thin-left-border{
+			border-left-style: solid;
+			border-left-width: 1px;}
+
+		.joqd.thin-right-border{
+			border-right-style: solid;
+			border-right-width: 1px;}
