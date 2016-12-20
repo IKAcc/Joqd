@@ -1,0 +1,34 @@
+{
+  "name": "joqd",
+  "version": "2.0.0",
+  "description": "A Modern UI Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IKAcc/Joqd.git"
+  },
+  "author": "Javid Izadfar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IKAcc/Joqd/issues"
+  },
+  "homepage": "https://github.com/IKAcc/Joqd#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.2.0",
+    "postcss-at-rules-variables": "0.0.26",
+    "postcss-cssnext": "^2.9.0",
+    "postcss-custom-properties": "^5.0.1",
+    "postcss-each": "^0.9.3",
+    "postcss-for": "^2.1.1",
+    "postcss-import": "^9.0.0",
+    "postcss-mixins": "^5.4.0",
+    "postcss-nested": "^1.0.0",
+    "postcss-short": "^3.0.1",
+    "postcss-short-color": "^2.0.1",
+    "postcss-simple-vars": "^3.0.0"
+  }
+}
