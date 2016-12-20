@@ -1,0 +1,63 @@
+:root{
+  $red-lighten-5: #ffebee;
+  $red-lighten-4: #ffcdd2;
+  $red-lighten-3: #ef9a9a;
+  $red-lighten-2: #e57373;
+  $red-lighten-1: #ef5350;
+  $red:           #F44336;
+  $red-darken-1:  #e53935;
+  $red-darken-2:  #d32f2f;
+  $red-darken-3:  #c62828;
+  $red-darken-4:  #b71c1c;
+  $red-accent-1:  #ff8a80;
+  $red-accent-2:  #ff5252;
+  $red-accent-3:  #ff1744;
+  $red-accent-4:  #d50000;
+
+  $pink-lighten-5: #fce4ec;
+  $pink-lighten-4: #f8bbd0;
+  $pink-lighten-3: #f48fb1;
+  $pink-lighten-2: #f06292;
+  $pink-lighten-1: #ec407a;
+  $pink:           #E91E63;
+  $pink-darken-1:  #d81b60;
+  $pink-darken-2:  #c2185b;
+  $pink-darken-3:  #ad1457;
+  $pink-darken-4:  #880e4f;
+  $pink-accent-1:  #ff80ab;
+  $pink-accent-2:  #ff4081;
+  $pink-accent-3:  #f50057;
+  $pink-accent-4:  #c51162;
+
+  $purple-lighten-5: #f3e5f5;
+  $purple-lighten-4: #e1bee7;
+  $purple-lighten-3: #ce93d8;
+  $purple-lighten-2: #ba68c8;
+  $purple-lighten-1: #ab47bc;
+  $purple:           #9c27b0;
+  $purple-darken-1:  #8e24aa;
+  $purple-darken-2:  #7b1fa2;
+  $purple-darken-3:  #6a1b9a;
+  $purple-darken-4:  #4a148c;
+  $purple-accent-1:  #ea80fc;
+  $purple-accent-2:  #e040fb;
+  $purple-accent-3:  #d500f9;
+  $purple-accent-4:  #aa00ff;
+
+
+  $deep-purple-lighten-5: #ede7f6;
+  $deep-purple-lighten-4: #d1c4e9;
+  $deep-purple-lighten-3: #b39ddb;
+  $deep-purple-lighten-2: #9575cd;
+  $deep-purple-lighten-1: #7e57c2;
+  $deep-purple:           #673ab7;
+  $deep-purple-darken-1:  #5e35b1;
+  $deep-purple-darken-2:  #512da8;
+  $deep-purple-darken-3:  #4527a0;
+  $deep-purple-darken-4:  #311b92;
+  $deep-purple-accent-1:  #b388ff;
+  $deep-purple-accent-2:  #7c4dff;
+  $deep-purple-accent-3:  #651fff;
+  $deep-purple-accent-4:  #6200ea;
+
+}
