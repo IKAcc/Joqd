@@ -6,15 +6,30 @@
 .$(name)-active:active{background-color: $($name)}
 }
 
-@each $color in red, pink, purple, deep-purple, indigo, blue, light-blue, cyan, teal, green, light-green, lime, yellow, amber, orange{
+
+@each $color in red, pink, purple, deep-purple, indigo, blue, light-blue, cyan, teal, green, light-green, lime, yellow, amber, orange, deep-orange{
   @for $i from 1 to 5 {
     @mixin color $(color)-lighten-$(i);
   }
   @mixin color $color;
   @for $j from 1 to 4 {
-    @mixin color $(color)-darken-$(j),;
+    @mixin color $(color)-darken-$(j);
   }
   @for $k from 1 to 4 {
     @mixin color $(color)-accent-$(k);
   }
+}
+
+@each $color in brown, grey, blue-grey{
+  @for $i from 1 to 5 {
+    @mixin color $(color)-lighten-$(i);
+  }
+  @mixin color $color;
+  @for $j from 1 to 4 {
+    @mixin color $(color)-darken-$(j);
+  }
+}
+
+@each $color in black, white{
+  @mixin color $color;
 }
