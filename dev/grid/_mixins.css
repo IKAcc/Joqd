@@ -4,7 +4,19 @@
 
     flex-basis: calc( (100 * $collom-number) / 12 )%;
     max-width: calc( (100 * $collom-number) / 12 )%;
+    order: 1
 
+  }
+
+}
+
+@define-mixin grid-offset $device-name, $collom-number{
+
+  *[dir="ltr"]{
+    .$(device-name)-offset-$(collom-number){margin-left: calc( (100 * $collom-number) / 12 )%;}
+  }
+  *[dir="rtl"]{
+    .$(device-name)-offset-$(collom-number){margin-right: calc( (100 * $collom-number) / 12 )%;}
   }
 
 }

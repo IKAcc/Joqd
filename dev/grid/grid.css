@@ -28,6 +28,7 @@ body{margin: 0}
 
   @for $i from 1 to 12 {
     @mixin grid-main desktop, $i;
+    @mixin grid-offset desktop, $i;
   }
 
 }
