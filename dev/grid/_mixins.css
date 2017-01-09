@@ -1,0 +1,10 @@
+@define-mixin grid-main $device-name, $collom-number{
+
+  .$(device-name)-$(collom-number){
+
+    flex-basis: calc( (100 * $collom-number) / 12 )%;
+    max-width: calc( (100 * $collom-number) / 12 )%;
+
+  }
+
+}

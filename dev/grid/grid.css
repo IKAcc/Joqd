@@ -1,4 +1,5 @@
 @import '_vars.css';
+@import '_mixins.css';
 
 body{margin: 0}
 
@@ -6,14 +7,46 @@ body{margin: 0}
 
 .container-narrow,
 .container{
+  width: 100%;
   margin-right: auto;
-  margin-left: auto;
-}
-
-.container-narrow{width: 100%}
+  margin-left: auto;}
 
 .row{
   display: flex;
   flex: 0 1 auto;
   flex-flow: wrap row;
+}
+
+@media screen and ( min-width: $desktop-min ){
+
+  .container{max-width: $desktop-contianer-width}
+
+  [class*='desktop-']{
+    padding: calc($gutter / 2);
+    flex: 0 0 auto
+  }
+
+  @for $i from 1 to 12 {
+    @mixin grid-main desktop, $i;
+  }
+
+}
+
+@each $device in laptop, tablet, mobile{
+
+  @media screen and ( min-width: $($(device)-min) ) and ( max-width: $($(device)-max) ){
+
+    .container{max-width: $($(device)-contianer-width)}
+
+    [class*='$(device)-']{
+      padding: calc($gutter / 2);
+      flex: 0 0 auto
+    }
+
+    @for $i from 1 to 12 {
+      @mixin grid-main $device, $i;
+    }
+
+  }
+
 }
