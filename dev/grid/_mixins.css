@@ -20,3 +20,13 @@
   }
 
 }
+
+@define-mixin grid-order $device-name, $collom-number{
+
+  .$(device-name)-order-$(collom-number){
+
+    order: $i
+
+  }
+
+}

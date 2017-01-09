@@ -9,13 +9,19 @@ body{margin: 0}
 .container{
   width: 100%;
   margin-right: auto;
-  margin-left: auto;}
+  margin-left: auto
+}
 
-.row{
+.row,
+.row-reversed{
   display: flex;
   flex: 0 1 auto;
-  flex-flow: wrap row;
+  flex-wrap: wrap
 }
+
+.row{flex-direction: row}
+
+.row-reversed{flex-direction: row-reverse}
 
 @media screen and ( min-width: $desktop-min ){
 
@@ -28,6 +34,7 @@ body{margin: 0}
 
   @for $i from 1 to 12 {
     @mixin grid-main desktop, $i;
+    @mixin grid-order desktop, $i;
     @mixin grid-offset desktop, $i;
   }
 
