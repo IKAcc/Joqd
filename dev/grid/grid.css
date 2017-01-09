@@ -1,0 +1,19 @@
+@import '_vars.css';
+
+body{margin: 0}
+
+*{box-sizing: border-box;}
+
+.container-narrow,
+.container{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-narrow{width: 100%}
+
+.row{
+  display: flex;
+  flex: 0 1 auto;
+  flex-flow: wrap row;
+}
