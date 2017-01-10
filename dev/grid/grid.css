@@ -1,0 +1,60 @@
+@import '_vars.css';
+@import '_mixins.css';
+
+body{margin: 0}
+
+*{box-sizing: border-box;}
+
+.container-narrow,
+.container{
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto
+}
+
+.row,
+.row-reversed{
+  display: flex;
+  flex: 0 1 auto;
+  flex-wrap: wrap
+}
+
+.row{flex-direction: row}
+
+.row-reversed{flex-direction: row-reverse}
+
+@media screen and ( min-width: $desktop-min ){
+
+  .container{max-width: $desktop-contianer-width}
+
+  [class*='desktop-']{
+    padding: calc($gutter / 2);
+    flex: 0 0 auto
+  }
+
+  @for $i from 1 to 12 {
+    @mixin grid-main desktop, $i;
+    @mixin grid-order desktop, $i;
+    @mixin grid-offset desktop, $i;
+  }
+
+}
+
+@each $device in laptop, tablet, mobile{
+
+  @media screen and ( min-width: $($(device)-min) ) and ( max-width: $($(device)-max) ){
+
+    .container{max-width: $($(device)-contianer-width)}
+
+    [class*='$(device)-']{
+      padding: calc($gutter / 2);
+      flex: 0 0 auto
+    }
+
+    @for $i from 1 to 12 {
+      @mixin grid-main $device, $i;
+    }
+
+  }
+
+}

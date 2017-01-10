@@ -34,4 +34,5 @@ gulp.task('default', ['css'], function() {
 
   // watch for CSS changes
   gulp.watch('./dev/*.css', ["css"]);
+  gulp.watch('./dev/*/*.css', ["css"]);
 });
