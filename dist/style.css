@@ -8,22 +8,6 @@ html{font-size: 62.5%}
    		   url('../fonts/Roboto/Roboto-bold.woff') format('woff'),
    		   url('../fonts/Roboto/Roboto-bold.ttf') format('truetype')}
 
-@font-face{font-family: 'Roboto';font-weight: 400;src: url('../fonts/Roboto/Roboto-regular.eot');src: url('../fonts/Roboto/Roboto-regular.eot?#iefix') format('embedded-opentype'),
-   		   url('../fonts/Roboto/Roboto-regular.woff') format('woff'),
-   		   url('../fonts/Roboto/Roboto-regular.ttf') format('truetype')}
-
-@font-face{font-family: 'Roboto';font-weight: 700;src: url('../fonts/Roboto/Roboto-bold.eot');src: url('../fonts/Roboto/Roboto-bold.eot?#iefix') format('embedded-opentype'),
-   		   url('../fonts/Roboto/Roboto-bold.woff') format('woff'),
-   		   url('../fonts/Roboto/Roboto-bold.ttf') format('truetype')}
-
-@font-face{font-family: 'Vazir';font-weight: 400;src: url('../fonts/Vazir/Vazir-regular.eot');src: url('../fonts/Vazir/Vazir-regular.eot?#iefix') format('embedded-opentype'),
-   		   url('../fonts/Vazir/Vazir-regular.woff') format('woff'),
-   		   url('../fonts/Vazir/Vazir-regular.ttf') format('truetype')}
-
-@font-face{font-family: 'Vazir';font-weight: 700;src: url('../fonts/Vazir/Vazir-bold.eot');src: url('../fonts/Vazir/Vazir-bold.eot?#iefix') format('embedded-opentype'),
-   		   url('../fonts/Vazir/Vazir-bold.woff') format('woff'),
-   		   url('../fonts/Vazir/Vazir-bold.ttf') format('truetype')}
-
 @font-face{font-family: 'Vazir';font-weight: 400;src: url('../fonts/Vazir/Vazir-regular.eot');src: url('../fonts/Vazir/Vazir-regular.eot?#iefix') format('embedded-opentype'),
    		   url('../fonts/Vazir/Vazir-regular.woff') format('woff'),
    		   url('../fonts/Vazir/Vazir-regular.ttf') format('truetype')}
@@ -36,6 +20,68 @@ body{
    font-family: 'Roboto', 'Vazir', arial;
    font-size: 16px;
    font-size: 1.6rem}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6{
+   font-family: inherit;
+   line-height: 1.1;
+   color: inherit;}
+
+h1, .h1{
+   font-size: 36px;
+   font-size: 3.6rem;
+   font-weight: 700;
+}
+
+h2, .h2{
+   font-size: 30px;
+   font-size: 3rem;
+   font-weight: 600;
+}
+
+h3, .h3{
+   font-size: 24px;
+   font-size: 2.4rem;
+   font-weight: 500;
+}
+
+h4, .h4{
+   font-size: 18px;
+   font-size: 1.8rem;
+   font-weight: 500;
+}
+
+h5, .h5{
+   font-size: 14px;
+   font-size: 1.4rem;
+   font-weight: 500;
+}
+
+h6, .h6{
+   font-size: 12px;
+   font-size: 1.2rem;
+   font-weight: 500;
+}
+
+h1 small, .h1 small,
+h1 .small, .h1 .small,
+h2 small, .h2 small,
+h2 .small, .h2 .small,
+h3 small, .h3 small,
+h3 .small, .h3 .small,
+h4 small, .h4 small,
+h4 .small, .h4 .small,
+h5 small, .h5 small,
+h5 .small, .h5 .small,
+h6 small, .h6 small,
+h6 .small, .h6 .small{
+   font-family: inherit;
+   line-height: 1.1;
+   color: inherit;}
 
 p{
 	font-weight: 400;

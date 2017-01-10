@@ -3,21 +3,71 @@
 
 html{font-size: 62.5%}
 
-@mixin font $english-heading-font, regular, $(english-heading-font)-regular;
-@mixin font $english-heading-font, bold, $(english-heading-font)-bold;
-@mixin font $english-body-font, regular, $(english-body-font)-regular;
-@mixin font $english-body-font, bold, $(english-body-font)-bold;
+@mixin font $english-font, regular, $(english-font)-regular;
+@mixin font $english-font, bold, $(english-font)-bold;
 
-@mixin font $farsi-heading-font, regular, $(farsi-heading-font)-regular;
-@mixin font $farsi-heading-font, bold, $(farsi-heading-font)-bold;
-@mixin font $farsi-body-font, regular, $(farsi-body-font)-regular;
-@mixin font $farsi-body-font, bold, $(farsi-body-font)-bold;
+@mixin font $farsi-font, regular, $(farsi-font)-regular;
+@mixin font $farsi-font, bold, $(farsi-font)-bold;
 
 body{
-   font-family: 'Roboto', 'Vazir', arial;
+   font-family: '$english-font', '$farsi-font', arial;
    font-size: 1.6rem}
 
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6{
+   font-family: inherit;
+   line-height: 1.1;
+   color: inherit;}
 
+h1, .h1{
+   font-size: $h1-font-size;
+   font-weight: 700;
+}
+
+h2, .h2{
+   font-size: $h2-font-size;
+   font-weight: 600;
+}
+
+h3, .h3{
+   font-size: $h3-font-size;
+   font-weight: 500;
+}
+
+h4, .h4{
+   font-size: $h4-font-size;
+   font-weight: 500;
+}
+
+h5, .h5{
+   font-size: $h5-font-size;
+   font-weight: 500;
+}
+
+h6, .h6{
+   font-size: $h6-font-size;
+   font-weight: 500;
+}
+
+h1 small, .h1 small,
+h1 .small, .h1 .small,
+h2 small, .h2 small,
+h2 .small, .h2 .small,
+h3 small, .h3 small,
+h3 .small, .h3 .small,
+h4 small, .h4 small,
+h4 .small, .h4 .small,
+h5 small, .h5 small,
+h5 .small, .h5 .small,
+h6 small, .h6 small,
+h6 .small, .h6 .small{
+   font-family: inherit;
+   line-height: 1.1;
+   color: inherit;}
 
 p{
 	font-weight: 400;
