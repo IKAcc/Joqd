@@ -1,0 +1,29 @@
+@import '_vars.css';
+@import '_mixins.css';
+
+@each $color in red, pink, purple, deep-purple, indigo, blue, light-blue, cyan, teal, green, light-green, lime, yellow, amber, orange, deep-orange{
+  @for $i from 1 to 5 {
+    @mixin color-border $(color)-lighten-$(i);
+  }
+  @mixin color-border $color;
+  @for $j from 1 to 4 {
+    @mixin color-border $(color)-darken-$(j);
+  }
+  @for $k from 1 to 4 {
+    @mixin color-border $(color)-accent-$(k);
+  }
+}
+
+@each $color in brown, grey, blue-grey{
+  @for $i from 1 to 5 {
+    @mixin color-border $(color)-lighten-$(i);
+  }
+  @mixin color-border $color;
+  @for $j from 1 to 4 {
+    @mixin color-border $(color)-darken-$(j);
+  }
+}
+
+@each $color in black, white{
+  @mixin color-border $color;
+}

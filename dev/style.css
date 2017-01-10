@@ -1,3 +1,5 @@
-@import 'colors_background.css';
-@import 'colors_text.css';
-@import 'colors_border.css'
+@import 'colors/colors_background.css';
+
+@import 'colors/colors_text.css';
+
+@import 'colors/colors_border.css'
