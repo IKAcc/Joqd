@@ -1,3 +1,51 @@
+html{font-size: 62.5%}
+
+@font-face{font-family: 'Roboto';font-weight: 400;src: url('../fonts/Roboto/Roboto-regular.eot');src: url('../fonts/Roboto/Roboto-regular.eot?#iefix') format('embedded-opentype'),
+   		   url('../fonts/Roboto/Roboto-regular.woff') format('woff'),
+   		   url('../fonts/Roboto/Roboto-regular.ttf') format('truetype')}
+
+@font-face{font-family: 'Roboto';font-weight: 700;src: url('../fonts/Roboto/Roboto-bold.eot');src: url('../fonts/Roboto/Roboto-bold.eot?#iefix') format('embedded-opentype'),
+   		   url('../fonts/Roboto/Roboto-bold.woff') format('woff'),
+   		   url('../fonts/Roboto/Roboto-bold.ttf') format('truetype')}
+
+@font-face{font-family: 'Roboto';font-weight: 400;src: url('../fonts/Roboto/Roboto-regular.eot');src: url('../fonts/Roboto/Roboto-regular.eot?#iefix') format('embedded-opentype'),
+   		   url('../fonts/Roboto/Roboto-regular.woff') format('woff'),
+   		   url('../fonts/Roboto/Roboto-regular.ttf') format('truetype')}
+
+@font-face{font-family: 'Roboto';font-weight: 700;src: url('../fonts/Roboto/Roboto-bold.eot');src: url('../fonts/Roboto/Roboto-bold.eot?#iefix') format('embedded-opentype'),
+   		   url('../fonts/Roboto/Roboto-bold.woff') format('woff'),
+   		   url('../fonts/Roboto/Roboto-bold.ttf') format('truetype')}
+
+@font-face{font-family: 'Vazir';font-weight: 400;src: url('../fonts/Vazir/Vazir-regular.eot');src: url('../fonts/Vazir/Vazir-regular.eot?#iefix') format('embedded-opentype'),
+   		   url('../fonts/Vazir/Vazir-regular.woff') format('woff'),
+   		   url('../fonts/Vazir/Vazir-regular.ttf') format('truetype')}
+
+@font-face{font-family: 'Vazir';font-weight: 700;src: url('../fonts/Vazir/Vazir-bold.eot');src: url('../fonts/Vazir/Vazir-bold.eot?#iefix') format('embedded-opentype'),
+   		   url('../fonts/Vazir/Vazir-bold.woff') format('woff'),
+   		   url('../fonts/Vazir/Vazir-bold.ttf') format('truetype')}
+
+@font-face{font-family: 'Vazir';font-weight: 400;src: url('../fonts/Vazir/Vazir-regular.eot');src: url('../fonts/Vazir/Vazir-regular.eot?#iefix') format('embedded-opentype'),
+   		   url('../fonts/Vazir/Vazir-regular.woff') format('woff'),
+   		   url('../fonts/Vazir/Vazir-regular.ttf') format('truetype')}
+
+@font-face{font-family: 'Vazir';font-weight: 700;src: url('../fonts/Vazir/Vazir-bold.eot');src: url('../fonts/Vazir/Vazir-bold.eot?#iefix') format('embedded-opentype'),
+   		   url('../fonts/Vazir/Vazir-bold.woff') format('woff'),
+   		   url('../fonts/Vazir/Vazir-bold.ttf') format('truetype')}
+
+body{
+   font-family: 'Roboto', 'Vazir', arial;
+   font-size: 16px;
+   font-size: 1.6rem}
+
+p{
+	font-weight: 400;
+	font-size: 14px;
+	font-size: 1.4rem;
+	line-height: 14.28px;
+	line-height: 1.428rem;
+   margin: 0 0 10px;
+   margin: 0 0 1rem}
+
 body{margin: 0}
 
 *{box-sizing: border-box;}

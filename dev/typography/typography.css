@@ -1,0 +1,26 @@
+@import '_vars.css';
+@import '_mixins.css';
+
+html{font-size: 62.5%}
+
+@mixin font $english-heading-font, regular, $(english-heading-font)-regular;
+@mixin font $english-heading-font, bold, $(english-heading-font)-bold;
+@mixin font $english-body-font, regular, $(english-body-font)-regular;
+@mixin font $english-body-font, bold, $(english-body-font)-bold;
+
+@mixin font $farsi-heading-font, regular, $(farsi-heading-font)-regular;
+@mixin font $farsi-heading-font, bold, $(farsi-heading-font)-bold;
+@mixin font $farsi-body-font, regular, $(farsi-body-font)-regular;
+@mixin font $farsi-body-font, bold, $(farsi-body-font)-bold;
+
+body{
+   font-family: 'Roboto', 'Vazir', arial;
+   font-size: 1.6rem}
+
+
+
+p{
+	font-weight: 400;
+	font-size: 1.4rem;
+	line-height: 1.428rem;
+   margin: 0 0 1rem}
