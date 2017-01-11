@@ -92,6 +92,26 @@ p{
    margin: 0 0 10px;
    margin: 0 0 1rem}
 
+:lang(fa) q,
+:lang(ar) q,
+:lang(ur) q{quotes: "«" "»" "«" "»";}
+
+:lang(en) q{quotes: '“' '”' '‘' '’';}
+
+:lang(de) q{quotes: '„' '“';}
+
+:lang(fr) q{quotes: '« ' ' »' '‹ ' ' ›';}
+
+q:before{content: open-quote;}
+
+q:after{content: close-quote;}
+
+small, .small{font-size: 85%;}
+
+a.link{
+	text-decoration: none;
+	outline: none;}
+
 body{margin: 0}
 
 *{box-sizing: border-box;}
