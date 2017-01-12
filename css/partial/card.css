@@ -1,0 +1,142 @@
+/*
+=================================================================================================
+# 20 Card
+-------------------------------------------------------------------------------------------------
+*/
+
+  .joqd.card{
+  	width: 100%;
+  	height: auto;}
+
+  /*
+  =================================================================================================
+  # 20.1 Card Image
+  -------------------------------------------------------------------------------------------------
+  */
+
+    .joqd.card .joqd.card-image img{border-radius: inherit;}
+
+  /*
+  =================================================================================================
+  # 20.2 Card Title
+  -------------------------------------------------------------------------------------------------
+  */
+
+    .joqd.card p.title{
+      font-weight: bold;
+    	margin: 0px;
+    	white-space: nowrap;
+    	overflow: hidden;
+    	text-overflow: ellipsis;}
+
+
+    .joqd.card p.subtitle{
+    	font-size: 14px;
+    	font-weight: normal;
+    	opacity: .55;
+    	margin: 0px;
+    	white-space: nowrap;
+    	overflow: hidden;
+    	text-overflow: ellipsis;}
+
+    /*
+		=========================================================================================
+		# 20.2.1 Card Title without Avatar
+		-----------------------------------------------------------------------------------------
+		*/
+
+      .joqd.card .joqd.card-title{
+        padding-top: 24px;
+        padding-bottom: 16px;}
+
+      @media screen and (min-width: 992px) { /* on Desktop and Laptop */
+        .joqd.card .joqd.card-title{
+          padding-left: 24px;
+          padding-right: 24px;}
+      }
+
+      @media screen and (max-width: 991px) { /* on Tablet and Mobile */
+        .joqd.card .joqd.card-title{
+          padding-left: 16px;
+          padding-right: 16px;}
+      }
+
+      .joqd.card .joqd.card-title p.title{font-size: 24px;}
+
+    /*
+		=========================================================================================
+		# 20.2.2 Card Title with Avatar
+		-----------------------------------------------------------------------------------------
+		*/
+
+      .joqd.card .joqd.card-title-with-avatar{
+        padding-top: 16px;
+        padding-bottom: 16px;}
+
+      @media screen and (min-width: 992px) { /* on Desktop and Laptop */
+        .joqd.card .joqd.card-title-with-avatar{
+          padding-left: 24px;
+          padding-right: 24px;}
+      }
+
+      @media screen and (max-width: 991px) { /* on Tablet and Mobile */
+        .joqd.card .joqd.card-title-with-avatar{
+          padding-left: 16px;
+          padding-right: 16px;}
+      }
+
+    .joqd.card .joqd.card-title-with-avatar img.avatar{height: 40px;  width: 40px;}
+
+    :lang(fa) .joqd.card .joqd.card-title-with-avatar img.avatar,
+		:lang(ar) .joqd.card .joqd.card-title-with-avatar img.avatar,
+		:lang(ku) .joqd.card .joqd.card-title-with-avatar img.avatar,
+		:lang(ur) .joqd.card .joqd.card-title-with-avatar img.avatar,
+		:lang(ps) .joqd.card .joqd.card-title-with-avatar img.avatar,
+		:lang(sd) .joqd.card .joqd.card-title-with-avatar img.avatar{
+      margin-left: 16px;
+      margin-right: 0px;
+    	float: right !important;}
+
+    :lang(en) .joqd.card .joqd.card-title-with-avatar img.avatar,
+    :lang(fr) .joqd.card .joqd.card-title-with-avatar img.avatar,
+    :lang(de) .joqd.card .joqd.card-title-with-avatar img.avatar,
+    :lang(es) .joqd.card .joqd.card-title-with-avatar img.avatar{
+      margin-right: 16px;
+      margin-left: 0px;
+    	float: left !important;}
+
+    .joqd.card .joqd.card-title-with-avatar p.title{font-size: 14px;}
+
+  /*
+  =================================================================================================
+  # 20.3 Card Content
+  -------------------------------------------------------------------------------------------------
+  */
+
+    .joqd.card .joqd.card-content{padding: 16px;}
+
+    .joqd.card .joqd.card-content p{margin:0px;}
+
+  /*
+  =================================================================================================
+  # 20.4 Card Action
+  -------------------------------------------------------------------------------------------------
+  */
+
+    .joqd.card .joqd.card-action{padding: 8px;}
+
+    :lang(fa) .joqd.card .joqd.card-action .joqd.button,
+    :lang(ar) .joqd.card .joqd.card-action .joqd.button,
+    :lang(ku) .joqd.card .joqd.card-action .joqd.button,
+    :lang(ur) .joqd.card .joqd.card-action .joqd.button,
+    :lang(ps) .joqd.card .joqd.card-action .joqd.button,
+    :lang(sd) .joqd.card .joqd.card-action .joqd.button{
+      margin-left: 3px;
+      margin-right: 0px;}
+
+    :lang(en) .joqd.card .joqd.card-action .joqd.button,
+    :lang(fr) .joqd.card .joqd.card-action .joqd.button,
+    :lang(de) .joqd.card .joqd.card-action .joqd.button,
+    :lang(es) .joqd.card .joqd.card-action .joqd.button{
+      margin-left: 0px;
+      margin-right: 3px;}

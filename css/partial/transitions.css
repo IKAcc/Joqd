@@ -1,0 +1,11 @@
+/*
+=================================================================================================
+# 19 Transitions
+-------------------------------------------------------------------------------------------------
+*/
+
+  .joqd.transition-smooth{
+    -webkit-transition: all 0.2s ease-out;
+		   -moz-transition: all 0.2s ease-out;
+		     -o-transition: all 0.2s ease-out;
+						transition: all 0.2s ease-out;}
