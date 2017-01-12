@@ -1,0 +1,5 @@
+@define-mixin color-background $name{
+    .$(name),
+    .$(name)-hover:hover,
+    .$(name)-active:active{background-color: $($name)}
+}

@@ -1,0 +1,9 @@
+@define-mixin font $type-face, $type-weigth : 400, $type-file: $type-face{
+   @font-face{
+      font-family: '$type-face';
+      font-weight: $type-weigth;
+   	src: url('$path/$type-face/$type-file.eot');
+   	src: url('$path/$type-face/$type-file.eot?#iefix') format('embedded-opentype'),
+   		   url('$path/$type-face/$type-file.woff') format('woff'),
+   		   url('$path/$type-face/$type-file.ttf') format('truetype');}
+}
