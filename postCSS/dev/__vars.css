@@ -1,3 +1,34 @@
+$path: ../fonts;
+
+$english-font: Roboto;
+
+$farsi-font: Vazir;
+
+$h1-font-size: 3.6rem;
+$h2-font-size: 3rem;
+$h3-font-size: 2.4rem;
+$h4-font-size: 1.8rem;
+$h5-font-size: 1.4rem;
+$h6-font-size: 1.2rem;
+
+
+
+$gutter: 2.4rem;
+
+$desktop-contianer-width: 117rem;
+$laptop-contianer-width: 97rem;
+$tablet-contianer-width: 75rem;
+$mobile-contianer-width: 100%;
+
+$desktop-min: 1200px;
+$laptop-max: 1199px;
+$laptop-min: 992px;
+$tablet-max: 991px;
+$tablet-min: 768px;
+$mobile-max: 767px;
+$mobile-min: 0;
+
+
 $red-lighten-5: #ffebee;
 $red-lighten-4: #ffcdd2;
 $red-lighten-3: #ef9a9a;

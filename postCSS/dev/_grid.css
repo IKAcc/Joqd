@@ -1,5 +1,5 @@
-@import '_vars.css';
-@import '_mixins.css';
+@import '__vars.css';
+@import 'mixins/_grid.css';
 
 body{margin: 0}
 

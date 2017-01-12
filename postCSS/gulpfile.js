@@ -24,7 +24,7 @@ gulp.task('css', function() {
     shortcss,
     cssnext
   ];
-  return gulp.src('dev/style.css')
+  return gulp.src('dev/joqd.css')
   .pipe(postcss(plugins))
   .pipe(gulp.dest('dist'));
 });
@@ -34,5 +34,5 @@ gulp.task('default', ['css'], function() {
 
   // watch for CSS changes
   gulp.watch('./dev/*.css', ["css"]);
-  gulp.watch('./dev/*/*.css', ["css"]);
+  gulp.watch('./dev/mixins/*.css', ["css"]);
 });
