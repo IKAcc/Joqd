@@ -1,0 +1,24 @@
+{
+  "name": "joqd",
+  "version": "2.0.0",
+  "description": "A Modern UI Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IKAcc/Joqd.git"
+  },
+  "author": "Javid Izadfar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IKAcc/Joqd/issues"
+  },
+  "homepage": "https://github.com/IKAcc/Joqd#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-less": "^3.3.0"
+  }
+}
