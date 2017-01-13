@@ -1278,6 +1278,11 @@
 .white-active:active {
   background-color: #fff;
 }
+.black,
+.black-hover:hover,
+.black-active:active {
+  background-color: #000;
+}
 /*
 =================================================================================================
 # 4 Text Colors
@@ -2558,6 +2563,11 @@
 .white-text-active:active {
   color: #fff;
 }
+.black-text,
+.black-text-hover:hover,
+.black-text-active:active {
+  color: #000;
+}
 /*
 =================================================================================================
 # 5 Border Colors
@@ -3837,4 +3847,9 @@
 .white-border-hover:hover,
 .white-border-active:active {
   border-color: #fff;
+}
+.black-border,
+.black-border-hover:hover,
+.black-border-active:active {
+  border-color: #000;
 }
