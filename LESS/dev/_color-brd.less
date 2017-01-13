@@ -1,0 +1,68 @@
+@import "__vars.less";
+@import "mixins/_color-brd.less";
+
+/*
+=================================================================================================
+# 5 Border Colors
+-------------------------------------------------------------------------------------------------
+*/
+
+@colors: red, pink, purple, deep-purple, indigo, blue, light-blue, cyan, teal, green, light-green, lime, yellow, amber, orange, deep-orange;
+@colors_no_accent: brown, grey, blue-grey;
+@colors_no_accent_shade: white, black;
+
+.color_border_loop(@color-number:1) when (@color-number <= length(@colors)) {
+   @color: extract(extract(@colors, @color-number),1);
+
+   .color_light_shade_border_loop(@i: 5) when (@i > 0){
+      .color-border(~"@{color}-lighten-@{i}");
+      .color_light_shade_border_loop((@i - 1));
+   }
+   .color_light_shade_border_loop();
+
+   .color-border(@color);
+
+   .color_dark_shade_border_loop(@j: 1) when (@j < 5){
+      .color-border(~"@{color}-darken-@{j}");
+      .color_dark_shade_border_loop((@j + 1));
+   }
+   .color_dark_shade_border_loop();
+
+   .color_accent_border_loop(@k: 1) when (@k < 5){
+      .color-border(~"@{color}-accent-@{k}");
+      .color_accent_border_loop((@k + 1));
+   }
+   .color_accent_border_loop();
+
+   .color_border_loop((@color-number + 1));
+}
+.color_border_loop();
+
+.color_no_accent_border_loop(@color-number:1) when (@color-number <= length(@colors_no_accent)) {
+   @color: extract(extract(@colors_no_accent, @color-number),1);
+
+   .color_light_shade_border_loop(@i: 5) when (@i > 0){
+      .color-border(~"@{color}-lighten-@{i}");
+      .color_light_shade_border_loop((@i - 1));
+   }
+   .color_light_shade_border_loop();
+
+   .color-border(@color);
+
+   .color_dark_shade_border_loop(@j: 1) when (@j < 5){
+      .color-border(~"@{color}-darken-@{j}");
+      .color_dark_shade_border_loop((@j + 1));
+   }
+   .color_dark_shade_border_loop();
+
+   .color_no_accent_border_loop((@color-number + 1));
+}
+.color_no_accent_border_loop();
+
+.color_no_accent_shade_border_loop(@color-number:1) when (@color-number <= length(@colors_no_accent_shade)) {
+   @color: extract(extract(@colors_no_accent_shade, @color-number),1);
+
+   .color-border(@color);
+
+}
+.color_no_accent_shade_border_loop();
