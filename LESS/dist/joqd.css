@@ -1,0 +1,1280 @@
+/*
+=================================================================================================
+# 3 Background Colors
+-------------------------------------------------------------------------------------------------
+*/
+.red-lighten-5,
+.red-lighten-5-hover:hover,
+.red-lighten-5-active:active {
+  background-color: #ffebee;
+}
+.red-lighten-4,
+.red-lighten-4-hover:hover,
+.red-lighten-4-active:active {
+  background-color: #ffcdd2;
+}
+.red-lighten-3,
+.red-lighten-3-hover:hover,
+.red-lighten-3-active:active {
+  background-color: #ef9a9a;
+}
+.red-lighten-2,
+.red-lighten-2-hover:hover,
+.red-lighten-2-active:active {
+  background-color: #e57373;
+}
+.red-lighten-1,
+.red-lighten-1-hover:hover,
+.red-lighten-1-active:active {
+  background-color: #ef5350;
+}
+.red,
+.red-hover:hover,
+.red-active:active {
+  background-color: #F44336;
+}
+.red-darken-1,
+.red-darken-1-hover:hover,
+.red-darken-1-active:active {
+  background-color: #e53935;
+}
+.red-darken-2,
+.red-darken-2-hover:hover,
+.red-darken-2-active:active {
+  background-color: #d32f2f;
+}
+.red-darken-3,
+.red-darken-3-hover:hover,
+.red-darken-3-active:active {
+  background-color: #c62828;
+}
+.red-darken-4,
+.red-darken-4-hover:hover,
+.red-darken-4-active:active {
+  background-color: #b71c1c;
+}
+.red-accent-1,
+.red-accent-1-hover:hover,
+.red-accent-1-active:active {
+  background-color: #ff8a80;
+}
+.red-accent-2,
+.red-accent-2-hover:hover,
+.red-accent-2-active:active {
+  background-color: #ff5252;
+}
+.red-accent-3,
+.red-accent-3-hover:hover,
+.red-accent-3-active:active {
+  background-color: #ff1744;
+}
+.red-accent-4,
+.red-accent-4-hover:hover,
+.red-accent-4-active:active {
+  background-color: #d50000;
+}
+.pink-lighten-5,
+.pink-lighten-5-hover:hover,
+.pink-lighten-5-active:active {
+  background-color: #fce4ec;
+}
+.pink-lighten-4,
+.pink-lighten-4-hover:hover,
+.pink-lighten-4-active:active {
+  background-color: #f8bbd0;
+}
+.pink-lighten-3,
+.pink-lighten-3-hover:hover,
+.pink-lighten-3-active:active {
+  background-color: #f48fb1;
+}
+.pink-lighten-2,
+.pink-lighten-2-hover:hover,
+.pink-lighten-2-active:active {
+  background-color: #f06292;
+}
+.pink-lighten-1,
+.pink-lighten-1-hover:hover,
+.pink-lighten-1-active:active {
+  background-color: #ec407a;
+}
+.pink,
+.pink-hover:hover,
+.pink-active:active {
+  background-color: #E91E63;
+}
+.pink-darken-1,
+.pink-darken-1-hover:hover,
+.pink-darken-1-active:active {
+  background-color: #d81b60;
+}
+.pink-darken-2,
+.pink-darken-2-hover:hover,
+.pink-darken-2-active:active {
+  background-color: #c2185b;
+}
+.pink-darken-3,
+.pink-darken-3-hover:hover,
+.pink-darken-3-active:active {
+  background-color: #ad1457;
+}
+.pink-darken-4,
+.pink-darken-4-hover:hover,
+.pink-darken-4-active:active {
+  background-color: #880e4f;
+}
+.pink-accent-1,
+.pink-accent-1-hover:hover,
+.pink-accent-1-active:active {
+  background-color: #ff80ab;
+}
+.pink-accent-2,
+.pink-accent-2-hover:hover,
+.pink-accent-2-active:active {
+  background-color: #ff4081;
+}
+.pink-accent-3,
+.pink-accent-3-hover:hover,
+.pink-accent-3-active:active {
+  background-color: #f50057;
+}
+.pink-accent-4,
+.pink-accent-4-hover:hover,
+.pink-accent-4-active:active {
+  background-color: #c51162;
+}
+.purple-lighten-5,
+.purple-lighten-5-hover:hover,
+.purple-lighten-5-active:active {
+  background-color: #f3e5f5;
+}
+.purple-lighten-4,
+.purple-lighten-4-hover:hover,
+.purple-lighten-4-active:active {
+  background-color: #e1bee7;
+}
+.purple-lighten-3,
+.purple-lighten-3-hover:hover,
+.purple-lighten-3-active:active {
+  background-color: #ce93d8;
+}
+.purple-lighten-2,
+.purple-lighten-2-hover:hover,
+.purple-lighten-2-active:active {
+  background-color: #ba68c8;
+}
+.purple-lighten-1,
+.purple-lighten-1-hover:hover,
+.purple-lighten-1-active:active {
+  background-color: #ab47bc;
+}
+.purple,
+.purple-hover:hover,
+.purple-active:active {
+  background-color: #9c27b0;
+}
+.purple-darken-1,
+.purple-darken-1-hover:hover,
+.purple-darken-1-active:active {
+  background-color: #8e24aa;
+}
+.purple-darken-2,
+.purple-darken-2-hover:hover,
+.purple-darken-2-active:active {
+  background-color: #7b1fa2;
+}
+.purple-darken-3,
+.purple-darken-3-hover:hover,
+.purple-darken-3-active:active {
+  background-color: #6a1b9a;
+}
+.purple-darken-4,
+.purple-darken-4-hover:hover,
+.purple-darken-4-active:active {
+  background-color: #4a148c;
+}
+.purple-accent-1,
+.purple-accent-1-hover:hover,
+.purple-accent-1-active:active {
+  background-color: #ea80fc;
+}
+.purple-accent-2,
+.purple-accent-2-hover:hover,
+.purple-accent-2-active:active {
+  background-color: #e040fb;
+}
+.purple-accent-3,
+.purple-accent-3-hover:hover,
+.purple-accent-3-active:active {
+  background-color: #d500f9;
+}
+.purple-accent-4,
+.purple-accent-4-hover:hover,
+.purple-accent-4-active:active {
+  background-color: #aa00ff;
+}
+.deep-purple-lighten-5,
+.deep-purple-lighten-5-hover:hover,
+.deep-purple-lighten-5-active:active {
+  background-color: #ede7f6;
+}
+.deep-purple-lighten-4,
+.deep-purple-lighten-4-hover:hover,
+.deep-purple-lighten-4-active:active {
+  background-color: #d1c4e9;
+}
+.deep-purple-lighten-3,
+.deep-purple-lighten-3-hover:hover,
+.deep-purple-lighten-3-active:active {
+  background-color: #b39ddb;
+}
+.deep-purple-lighten-2,
+.deep-purple-lighten-2-hover:hover,
+.deep-purple-lighten-2-active:active {
+  background-color: #9575cd;
+}
+.deep-purple-lighten-1,
+.deep-purple-lighten-1-hover:hover,
+.deep-purple-lighten-1-active:active {
+  background-color: #7e57c2;
+}
+.deep-purple,
+.deep-purple-hover:hover,
+.deep-purple-active:active {
+  background-color: #673ab7;
+}
+.deep-purple-darken-1,
+.deep-purple-darken-1-hover:hover,
+.deep-purple-darken-1-active:active {
+  background-color: #5e35b1;
+}
+.deep-purple-darken-2,
+.deep-purple-darken-2-hover:hover,
+.deep-purple-darken-2-active:active {
+  background-color: #512da8;
+}
+.deep-purple-darken-3,
+.deep-purple-darken-3-hover:hover,
+.deep-purple-darken-3-active:active {
+  background-color: #4527a0;
+}
+.deep-purple-darken-4,
+.deep-purple-darken-4-hover:hover,
+.deep-purple-darken-4-active:active {
+  background-color: #311b92;
+}
+.deep-purple-accent-1,
+.deep-purple-accent-1-hover:hover,
+.deep-purple-accent-1-active:active {
+  background-color: #b388ff;
+}
+.deep-purple-accent-2,
+.deep-purple-accent-2-hover:hover,
+.deep-purple-accent-2-active:active {
+  background-color: #7c4dff;
+}
+.deep-purple-accent-3,
+.deep-purple-accent-3-hover:hover,
+.deep-purple-accent-3-active:active {
+  background-color: #651fff;
+}
+.deep-purple-accent-4,
+.deep-purple-accent-4-hover:hover,
+.deep-purple-accent-4-active:active {
+  background-color: #6200ea;
+}
+.indigo-lighten-5,
+.indigo-lighten-5-hover:hover,
+.indigo-lighten-5-active:active {
+  background-color: #e8eaf6;
+}
+.indigo-lighten-4,
+.indigo-lighten-4-hover:hover,
+.indigo-lighten-4-active:active {
+  background-color: #c5cae9;
+}
+.indigo-lighten-3,
+.indigo-lighten-3-hover:hover,
+.indigo-lighten-3-active:active {
+  background-color: #9fa8da;
+}
+.indigo-lighten-2,
+.indigo-lighten-2-hover:hover,
+.indigo-lighten-2-active:active {
+  background-color: #7986cb;
+}
+.indigo-lighten-1,
+.indigo-lighten-1-hover:hover,
+.indigo-lighten-1-active:active {
+  background-color: #5c6bc0;
+}
+.indigo,
+.indigo-hover:hover,
+.indigo-active:active {
+  background-color: #3f51b5;
+}
+.indigo-darken-1,
+.indigo-darken-1-hover:hover,
+.indigo-darken-1-active:active {
+  background-color: #3949ab;
+}
+.indigo-darken-2,
+.indigo-darken-2-hover:hover,
+.indigo-darken-2-active:active {
+  background-color: #303f9f;
+}
+.indigo-darken-3,
+.indigo-darken-3-hover:hover,
+.indigo-darken-3-active:active {
+  background-color: #283593;
+}
+.indigo-darken-4,
+.indigo-darken-4-hover:hover,
+.indigo-darken-4-active:active {
+  background-color: #1a237e;
+}
+.indigo-accent-1,
+.indigo-accent-1-hover:hover,
+.indigo-accent-1-active:active {
+  background-color: #8c9eff;
+}
+.indigo-accent-2,
+.indigo-accent-2-hover:hover,
+.indigo-accent-2-active:active {
+  background-color: #536dfe;
+}
+.indigo-accent-3,
+.indigo-accent-3-hover:hover,
+.indigo-accent-3-active:active {
+  background-color: #3d5afe;
+}
+.indigo-accent-4,
+.indigo-accent-4-hover:hover,
+.indigo-accent-4-active:active {
+  background-color: #304ffe;
+}
+.blue-lighten-5,
+.blue-lighten-5-hover:hover,
+.blue-lighten-5-active:active {
+  background-color: #e3f2fd;
+}
+.blue-lighten-4,
+.blue-lighten-4-hover:hover,
+.blue-lighten-4-active:active {
+  background-color: #bbdefb;
+}
+.blue-lighten-3,
+.blue-lighten-3-hover:hover,
+.blue-lighten-3-active:active {
+  background-color: #90caf9;
+}
+.blue-lighten-2,
+.blue-lighten-2-hover:hover,
+.blue-lighten-2-active:active {
+  background-color: #64b5f6;
+}
+.blue-lighten-1,
+.blue-lighten-1-hover:hover,
+.blue-lighten-1-active:active {
+  background-color: #42a5f5;
+}
+.blue,
+.blue-hover:hover,
+.blue-active:active {
+  background-color: #2196f3;
+}
+.blue-darken-1,
+.blue-darken-1-hover:hover,
+.blue-darken-1-active:active {
+  background-color: #1e88e5;
+}
+.blue-darken-2,
+.blue-darken-2-hover:hover,
+.blue-darken-2-active:active {
+  background-color: #1976d2;
+}
+.blue-darken-3,
+.blue-darken-3-hover:hover,
+.blue-darken-3-active:active {
+  background-color: #1565c0;
+}
+.blue-darken-4,
+.blue-darken-4-hover:hover,
+.blue-darken-4-active:active {
+  background-color: #0d47a1;
+}
+.blue-accent-1,
+.blue-accent-1-hover:hover,
+.blue-accent-1-active:active {
+  background-color: #82b1ff;
+}
+.blue-accent-2,
+.blue-accent-2-hover:hover,
+.blue-accent-2-active:active {
+  background-color: #448aff;
+}
+.blue-accent-3,
+.blue-accent-3-hover:hover,
+.blue-accent-3-active:active {
+  background-color: #2979ff;
+}
+.blue-accent-4,
+.blue-accent-4-hover:hover,
+.blue-accent-4-active:active {
+  background-color: #2962ff;
+}
+.light-blue-lighten-5,
+.light-blue-lighten-5-hover:hover,
+.light-blue-lighten-5-active:active {
+  background-color: #e1f5fe;
+}
+.light-blue-lighten-4,
+.light-blue-lighten-4-hover:hover,
+.light-blue-lighten-4-active:active {
+  background-color: #b3e5fc;
+}
+.light-blue-lighten-3,
+.light-blue-lighten-3-hover:hover,
+.light-blue-lighten-3-active:active {
+  background-color: #81d4fa;
+}
+.light-blue-lighten-2,
+.light-blue-lighten-2-hover:hover,
+.light-blue-lighten-2-active:active {
+  background-color: #4fc3f7;
+}
+.light-blue-lighten-1,
+.light-blue-lighten-1-hover:hover,
+.light-blue-lighten-1-active:active {
+  background-color: #29b6f6;
+}
+.light-blue,
+.light-blue-hover:hover,
+.light-blue-active:active {
+  background-color: #03a9f4;
+}
+.light-blue-darken-1,
+.light-blue-darken-1-hover:hover,
+.light-blue-darken-1-active:active {
+  background-color: #039be5;
+}
+.light-blue-darken-2,
+.light-blue-darken-2-hover:hover,
+.light-blue-darken-2-active:active {
+  background-color: #0288d1;
+}
+.light-blue-darken-3,
+.light-blue-darken-3-hover:hover,
+.light-blue-darken-3-active:active {
+  background-color: #0277bd;
+}
+.light-blue-darken-4,
+.light-blue-darken-4-hover:hover,
+.light-blue-darken-4-active:active {
+  background-color: #01579b;
+}
+.light-blue-accent-1,
+.light-blue-accent-1-hover:hover,
+.light-blue-accent-1-active:active {
+  background-color: #80d8ff;
+}
+.light-blue-accent-2,
+.light-blue-accent-2-hover:hover,
+.light-blue-accent-2-active:active {
+  background-color: #40c4ff;
+}
+.light-blue-accent-3,
+.light-blue-accent-3-hover:hover,
+.light-blue-accent-3-active:active {
+  background-color: #00b0ff;
+}
+.light-blue-accent-4,
+.light-blue-accent-4-hover:hover,
+.light-blue-accent-4-active:active {
+  background-color: #0091ea;
+}
+.cyan-lighten-5,
+.cyan-lighten-5-hover:hover,
+.cyan-lighten-5-active:active {
+  background-color: #e0f7fa;
+}
+.cyan-lighten-4,
+.cyan-lighten-4-hover:hover,
+.cyan-lighten-4-active:active {
+  background-color: #b2ebf2;
+}
+.cyan-lighten-3,
+.cyan-lighten-3-hover:hover,
+.cyan-lighten-3-active:active {
+  background-color: #80deea;
+}
+.cyan-lighten-2,
+.cyan-lighten-2-hover:hover,
+.cyan-lighten-2-active:active {
+  background-color: #4dd0e1;
+}
+.cyan-lighten-1,
+.cyan-lighten-1-hover:hover,
+.cyan-lighten-1-active:active {
+  background-color: #26c6da;
+}
+.cyan,
+.cyan-hover:hover,
+.cyan-active:active {
+  background-color: #00bcd4;
+}
+.cyan-darken-1,
+.cyan-darken-1-hover:hover,
+.cyan-darken-1-active:active {
+  background-color: #00acc1;
+}
+.cyan-darken-2,
+.cyan-darken-2-hover:hover,
+.cyan-darken-2-active:active {
+  background-color: #0097a7;
+}
+.cyan-darken-3,
+.cyan-darken-3-hover:hover,
+.cyan-darken-3-active:active {
+  background-color: #00838f;
+}
+.cyan-darken-4,
+.cyan-darken-4-hover:hover,
+.cyan-darken-4-active:active {
+  background-color: #006064;
+}
+.cyan-accent-1,
+.cyan-accent-1-hover:hover,
+.cyan-accent-1-active:active {
+  background-color: #84ffff;
+}
+.cyan-accent-2,
+.cyan-accent-2-hover:hover,
+.cyan-accent-2-active:active {
+  background-color: #18ffff;
+}
+.cyan-accent-3,
+.cyan-accent-3-hover:hover,
+.cyan-accent-3-active:active {
+  background-color: #00e5ff;
+}
+.cyan-accent-4,
+.cyan-accent-4-hover:hover,
+.cyan-accent-4-active:active {
+  background-color: #00b8d4;
+}
+.teal-lighten-5,
+.teal-lighten-5-hover:hover,
+.teal-lighten-5-active:active {
+  background-color: #e0f2f1;
+}
+.teal-lighten-4,
+.teal-lighten-4-hover:hover,
+.teal-lighten-4-active:active {
+  background-color: #b2dfdb;
+}
+.teal-lighten-3,
+.teal-lighten-3-hover:hover,
+.teal-lighten-3-active:active {
+  background-color: #80cbc4;
+}
+.teal-lighten-2,
+.teal-lighten-2-hover:hover,
+.teal-lighten-2-active:active {
+  background-color: #4db6ac;
+}
+.teal-lighten-1,
+.teal-lighten-1-hover:hover,
+.teal-lighten-1-active:active {
+  background-color: #26a69a;
+}
+.teal,
+.teal-hover:hover,
+.teal-active:active {
+  background-color: #009688;
+}
+.teal-darken-1,
+.teal-darken-1-hover:hover,
+.teal-darken-1-active:active {
+  background-color: #00897b;
+}
+.teal-darken-2,
+.teal-darken-2-hover:hover,
+.teal-darken-2-active:active {
+  background-color: #00796b;
+}
+.teal-darken-3,
+.teal-darken-3-hover:hover,
+.teal-darken-3-active:active {
+  background-color: #00695c;
+}
+.teal-darken-4,
+.teal-darken-4-hover:hover,
+.teal-darken-4-active:active {
+  background-color: #004d40;
+}
+.teal-accent-1,
+.teal-accent-1-hover:hover,
+.teal-accent-1-active:active {
+  background-color: #a7ffeb;
+}
+.teal-accent-2,
+.teal-accent-2-hover:hover,
+.teal-accent-2-active:active {
+  background-color: #64ffda;
+}
+.teal-accent-3,
+.teal-accent-3-hover:hover,
+.teal-accent-3-active:active {
+  background-color: #1de9b6;
+}
+.teal-accent-4,
+.teal-accent-4-hover:hover,
+.teal-accent-4-active:active {
+  background-color: #00bfa5;
+}
+.green-lighten-5,
+.green-lighten-5-hover:hover,
+.green-lighten-5-active:active {
+  background-color: #e8f5e9;
+}
+.green-lighten-4,
+.green-lighten-4-hover:hover,
+.green-lighten-4-active:active {
+  background-color: #c8e6c9;
+}
+.green-lighten-3,
+.green-lighten-3-hover:hover,
+.green-lighten-3-active:active {
+  background-color: #a5d6a7;
+}
+.green-lighten-2,
+.green-lighten-2-hover:hover,
+.green-lighten-2-active:active {
+  background-color: #81c784;
+}
+.green-lighten-1,
+.green-lighten-1-hover:hover,
+.green-lighten-1-active:active {
+  background-color: #66bb6a;
+}
+.green,
+.green-hover:hover,
+.green-active:active {
+  background-color: #4caf50;
+}
+.green-darken-1,
+.green-darken-1-hover:hover,
+.green-darken-1-active:active {
+  background-color: #43a047;
+}
+.green-darken-2,
+.green-darken-2-hover:hover,
+.green-darken-2-active:active {
+  background-color: #388e3c;
+}
+.green-darken-3,
+.green-darken-3-hover:hover,
+.green-darken-3-active:active {
+  background-color: #2e7d32;
+}
+.green-darken-4,
+.green-darken-4-hover:hover,
+.green-darken-4-active:active {
+  background-color: #1b5e20;
+}
+.green-accent-1,
+.green-accent-1-hover:hover,
+.green-accent-1-active:active {
+  background-color: #b9f6ca;
+}
+.green-accent-2,
+.green-accent-2-hover:hover,
+.green-accent-2-active:active {
+  background-color: #69f0ae;
+}
+.green-accent-3,
+.green-accent-3-hover:hover,
+.green-accent-3-active:active {
+  background-color: #00e676;
+}
+.green-accent-4,
+.green-accent-4-hover:hover,
+.green-accent-4-active:active {
+  background-color: #00c853;
+}
+.light-green-lighten-5,
+.light-green-lighten-5-hover:hover,
+.light-green-lighten-5-active:active {
+  background-color: #f1f8e9;
+}
+.light-green-lighten-4,
+.light-green-lighten-4-hover:hover,
+.light-green-lighten-4-active:active {
+  background-color: #dcedc8;
+}
+.light-green-lighten-3,
+.light-green-lighten-3-hover:hover,
+.light-green-lighten-3-active:active {
+  background-color: #c5e1a5;
+}
+.light-green-lighten-2,
+.light-green-lighten-2-hover:hover,
+.light-green-lighten-2-active:active {
+  background-color: #aed581;
+}
+.light-green-lighten-1,
+.light-green-lighten-1-hover:hover,
+.light-green-lighten-1-active:active {
+  background-color: #9ccc65;
+}
+.light-green,
+.light-green-hover:hover,
+.light-green-active:active {
+  background-color: #8bc34a;
+}
+.light-green-darken-1,
+.light-green-darken-1-hover:hover,
+.light-green-darken-1-active:active {
+  background-color: #7cb342;
+}
+.light-green-darken-2,
+.light-green-darken-2-hover:hover,
+.light-green-darken-2-active:active {
+  background-color: #689f38;
+}
+.light-green-darken-3,
+.light-green-darken-3-hover:hover,
+.light-green-darken-3-active:active {
+  background-color: #558b2f;
+}
+.light-green-darken-4,
+.light-green-darken-4-hover:hover,
+.light-green-darken-4-active:active {
+  background-color: #33691e;
+}
+.light-green-accent-1,
+.light-green-accent-1-hover:hover,
+.light-green-accent-1-active:active {
+  background-color: #ccff90;
+}
+.light-green-accent-2,
+.light-green-accent-2-hover:hover,
+.light-green-accent-2-active:active {
+  background-color: #b2ff59;
+}
+.light-green-accent-3,
+.light-green-accent-3-hover:hover,
+.light-green-accent-3-active:active {
+  background-color: #76ff03;
+}
+.light-green-accent-4,
+.light-green-accent-4-hover:hover,
+.light-green-accent-4-active:active {
+  background-color: #64dd17;
+}
+.lime-lighten-5,
+.lime-lighten-5-hover:hover,
+.lime-lighten-5-active:active {
+  background-color: #f9fbe7;
+}
+.lime-lighten-4,
+.lime-lighten-4-hover:hover,
+.lime-lighten-4-active:active {
+  background-color: #f0f4c3;
+}
+.lime-lighten-3,
+.lime-lighten-3-hover:hover,
+.lime-lighten-3-active:active {
+  background-color: #e6ee9c;
+}
+.lime-lighten-2,
+.lime-lighten-2-hover:hover,
+.lime-lighten-2-active:active {
+  background-color: #dce775;
+}
+.lime-lighten-1,
+.lime-lighten-1-hover:hover,
+.lime-lighten-1-active:active {
+  background-color: #d4e157;
+}
+.lime,
+.lime-hover:hover,
+.lime-active:active {
+  background-color: #cddc39;
+}
+.lime-darken-1,
+.lime-darken-1-hover:hover,
+.lime-darken-1-active:active {
+  background-color: #c0ca33;
+}
+.lime-darken-2,
+.lime-darken-2-hover:hover,
+.lime-darken-2-active:active {
+  background-color: #afb42b;
+}
+.lime-darken-3,
+.lime-darken-3-hover:hover,
+.lime-darken-3-active:active {
+  background-color: #9e9d24;
+}
+.lime-darken-4,
+.lime-darken-4-hover:hover,
+.lime-darken-4-active:active {
+  background-color: #827717;
+}
+.lime-accent-1,
+.lime-accent-1-hover:hover,
+.lime-accent-1-active:active {
+  background-color: #f4ff81;
+}
+.lime-accent-2,
+.lime-accent-2-hover:hover,
+.lime-accent-2-active:active {
+  background-color: #eeff41;
+}
+.lime-accent-3,
+.lime-accent-3-hover:hover,
+.lime-accent-3-active:active {
+  background-color: #c6ff00;
+}
+.lime-accent-4,
+.lime-accent-4-hover:hover,
+.lime-accent-4-active:active {
+  background-color: #aeea00;
+}
+.yellow-lighten-5,
+.yellow-lighten-5-hover:hover,
+.yellow-lighten-5-active:active {
+  background-color: #fffde7;
+}
+.yellow-lighten-4,
+.yellow-lighten-4-hover:hover,
+.yellow-lighten-4-active:active {
+  background-color: #fff9c4;
+}
+.yellow-lighten-3,
+.yellow-lighten-3-hover:hover,
+.yellow-lighten-3-active:active {
+  background-color: #fff59d;
+}
+.yellow-lighten-2,
+.yellow-lighten-2-hover:hover,
+.yellow-lighten-2-active:active {
+  background-color: #fff176;
+}
+.yellow-lighten-1,
+.yellow-lighten-1-hover:hover,
+.yellow-lighten-1-active:active {
+  background-color: #ffee58;
+}
+.yellow,
+.yellow-hover:hover,
+.yellow-active:active {
+  background-color: #ffeb3b;
+}
+.yellow-darken-1,
+.yellow-darken-1-hover:hover,
+.yellow-darken-1-active:active {
+  background-color: #fdd835;
+}
+.yellow-darken-2,
+.yellow-darken-2-hover:hover,
+.yellow-darken-2-active:active {
+  background-color: #fbc02d;
+}
+.yellow-darken-3,
+.yellow-darken-3-hover:hover,
+.yellow-darken-3-active:active {
+  background-color: #f9a825;
+}
+.yellow-darken-4,
+.yellow-darken-4-hover:hover,
+.yellow-darken-4-active:active {
+  background-color: #f57f17;
+}
+.yellow-accent-1,
+.yellow-accent-1-hover:hover,
+.yellow-accent-1-active:active {
+  background-color: #ffff8d;
+}
+.yellow-accent-2,
+.yellow-accent-2-hover:hover,
+.yellow-accent-2-active:active {
+  background-color: #ffff00;
+}
+.yellow-accent-3,
+.yellow-accent-3-hover:hover,
+.yellow-accent-3-active:active {
+  background-color: #ffea00;
+}
+.yellow-accent-4,
+.yellow-accent-4-hover:hover,
+.yellow-accent-4-active:active {
+  background-color: #ffd600;
+}
+.amber-lighten-5,
+.amber-lighten-5-hover:hover,
+.amber-lighten-5-active:active {
+  background-color: #fff8e1;
+}
+.amber-lighten-4,
+.amber-lighten-4-hover:hover,
+.amber-lighten-4-active:active {
+  background-color: #ffecb3;
+}
+.amber-lighten-3,
+.amber-lighten-3-hover:hover,
+.amber-lighten-3-active:active {
+  background-color: #ffe082;
+}
+.amber-lighten-2,
+.amber-lighten-2-hover:hover,
+.amber-lighten-2-active:active {
+  background-color: #ffd54f;
+}
+.amber-lighten-1,
+.amber-lighten-1-hover:hover,
+.amber-lighten-1-active:active {
+  background-color: #ffca28;
+}
+.amber,
+.amber-hover:hover,
+.amber-active:active {
+  background-color: #ffc107;
+}
+.amber-darken-1,
+.amber-darken-1-hover:hover,
+.amber-darken-1-active:active {
+  background-color: #ffb300;
+}
+.amber-darken-2,
+.amber-darken-2-hover:hover,
+.amber-darken-2-active:active {
+  background-color: #ffa000;
+}
+.amber-darken-3,
+.amber-darken-3-hover:hover,
+.amber-darken-3-active:active {
+  background-color: #ff8f00;
+}
+.amber-darken-4,
+.amber-darken-4-hover:hover,
+.amber-darken-4-active:active {
+  background-color: #ff6f00;
+}
+.amber-accent-1,
+.amber-accent-1-hover:hover,
+.amber-accent-1-active:active {
+  background-color: #ffe57f;
+}
+.amber-accent-2,
+.amber-accent-2-hover:hover,
+.amber-accent-2-active:active {
+  background-color: #ffd740;
+}
+.amber-accent-3,
+.amber-accent-3-hover:hover,
+.amber-accent-3-active:active {
+  background-color: #ffc400;
+}
+.amber-accent-4,
+.amber-accent-4-hover:hover,
+.amber-accent-4-active:active {
+  background-color: #ffab00;
+}
+.orange-lighten-5,
+.orange-lighten-5-hover:hover,
+.orange-lighten-5-active:active {
+  background-color: #fff3e0;
+}
+.orange-lighten-4,
+.orange-lighten-4-hover:hover,
+.orange-lighten-4-active:active {
+  background-color: #ffe0b2;
+}
+.orange-lighten-3,
+.orange-lighten-3-hover:hover,
+.orange-lighten-3-active:active {
+  background-color: #ffcc80;
+}
+.orange-lighten-2,
+.orange-lighten-2-hover:hover,
+.orange-lighten-2-active:active {
+  background-color: #ffb74d;
+}
+.orange-lighten-1,
+.orange-lighten-1-hover:hover,
+.orange-lighten-1-active:active {
+  background-color: #ffa726;
+}
+.orange,
+.orange-hover:hover,
+.orange-active:active {
+  background-color: #ff9800;
+}
+.orange-darken-1,
+.orange-darken-1-hover:hover,
+.orange-darken-1-active:active {
+  background-color: #fb8c00;
+}
+.orange-darken-2,
+.orange-darken-2-hover:hover,
+.orange-darken-2-active:active {
+  background-color: #f57c00;
+}
+.orange-darken-3,
+.orange-darken-3-hover:hover,
+.orange-darken-3-active:active {
+  background-color: #ef6c00;
+}
+.orange-darken-4,
+.orange-darken-4-hover:hover,
+.orange-darken-4-active:active {
+  background-color: #e65100;
+}
+.orange-accent-1,
+.orange-accent-1-hover:hover,
+.orange-accent-1-active:active {
+  background-color: #ffd180;
+}
+.orange-accent-2,
+.orange-accent-2-hover:hover,
+.orange-accent-2-active:active {
+  background-color: #ffab40;
+}
+.orange-accent-3,
+.orange-accent-3-hover:hover,
+.orange-accent-3-active:active {
+  background-color: #ff9100;
+}
+.orange-accent-4,
+.orange-accent-4-hover:hover,
+.orange-accent-4-active:active {
+  background-color: #ff6d00;
+}
+.deep-orange-lighten-5,
+.deep-orange-lighten-5-hover:hover,
+.deep-orange-lighten-5-active:active {
+  background-color: #fbe9e7;
+}
+.deep-orange-lighten-4,
+.deep-orange-lighten-4-hover:hover,
+.deep-orange-lighten-4-active:active {
+  background-color: #ffccbc;
+}
+.deep-orange-lighten-3,
+.deep-orange-lighten-3-hover:hover,
+.deep-orange-lighten-3-active:active {
+  background-color: #ffab91;
+}
+.deep-orange-lighten-2,
+.deep-orange-lighten-2-hover:hover,
+.deep-orange-lighten-2-active:active {
+  background-color: #ff8a65;
+}
+.deep-orange-lighten-1,
+.deep-orange-lighten-1-hover:hover,
+.deep-orange-lighten-1-active:active {
+  background-color: #ff7043;
+}
+.deep-orange,
+.deep-orange-hover:hover,
+.deep-orange-active:active {
+  background-color: #ff5722;
+}
+.deep-orange-darken-1,
+.deep-orange-darken-1-hover:hover,
+.deep-orange-darken-1-active:active {
+  background-color: #f4511e;
+}
+.deep-orange-darken-2,
+.deep-orange-darken-2-hover:hover,
+.deep-orange-darken-2-active:active {
+  background-color: #e64a19;
+}
+.deep-orange-darken-3,
+.deep-orange-darken-3-hover:hover,
+.deep-orange-darken-3-active:active {
+  background-color: #d84315;
+}
+.deep-orange-darken-4,
+.deep-orange-darken-4-hover:hover,
+.deep-orange-darken-4-active:active {
+  background-color: #bf360c;
+}
+.deep-orange-accent-1,
+.deep-orange-accent-1-hover:hover,
+.deep-orange-accent-1-active:active {
+  background-color: #ff9e80;
+}
+.deep-orange-accent-2,
+.deep-orange-accent-2-hover:hover,
+.deep-orange-accent-2-active:active {
+  background-color: #ff6e40;
+}
+.deep-orange-accent-3,
+.deep-orange-accent-3-hover:hover,
+.deep-orange-accent-3-active:active {
+  background-color: #ff3d00;
+}
+.deep-orange-accent-4,
+.deep-orange-accent-4-hover:hover,
+.deep-orange-accent-4-active:active {
+  background-color: #dd2c00;
+}
+.brown-lighten-5,
+.brown-lighten-5-hover:hover,
+.brown-lighten-5-active:active {
+  background-color: #efebe9;
+}
+.brown-lighten-4,
+.brown-lighten-4-hover:hover,
+.brown-lighten-4-active:active {
+  background-color: #d7ccc8;
+}
+.brown-lighten-3,
+.brown-lighten-3-hover:hover,
+.brown-lighten-3-active:active {
+  background-color: #bcaaa4;
+}
+.brown-lighten-2,
+.brown-lighten-2-hover:hover,
+.brown-lighten-2-active:active {
+  background-color: #a1887f;
+}
+.brown-lighten-1,
+.brown-lighten-1-hover:hover,
+.brown-lighten-1-active:active {
+  background-color: #8d6e63;
+}
+.brown,
+.brown-hover:hover,
+.brown-active:active {
+  background-color: #795548;
+}
+.brown-darken-1,
+.brown-darken-1-hover:hover,
+.brown-darken-1-active:active {
+  background-color: #6d4c41;
+}
+.brown-darken-2,
+.brown-darken-2-hover:hover,
+.brown-darken-2-active:active {
+  background-color: #5d4037;
+}
+.brown-darken-3,
+.brown-darken-3-hover:hover,
+.brown-darken-3-active:active {
+  background-color: #4e342e;
+}
+.brown-darken-4,
+.brown-darken-4-hover:hover,
+.brown-darken-4-active:active {
+  background-color: #3e2723;
+}
+.grey-lighten-5,
+.grey-lighten-5-hover:hover,
+.grey-lighten-5-active:active {
+  background-color: #fafafa;
+}
+.grey-lighten-4,
+.grey-lighten-4-hover:hover,
+.grey-lighten-4-active:active {
+  background-color: #f5f5f5;
+}
+.grey-lighten-3,
+.grey-lighten-3-hover:hover,
+.grey-lighten-3-active:active {
+  background-color: #eeeeee;
+}
+.grey-lighten-2,
+.grey-lighten-2-hover:hover,
+.grey-lighten-2-active:active {
+  background-color: #e0e0e0;
+}
+.grey-lighten-1,
+.grey-lighten-1-hover:hover,
+.grey-lighten-1-active:active {
+  background-color: #bdbdbd;
+}
+.grey,
+.grey-hover:hover,
+.grey-active:active {
+  background-color: #9e9e9e;
+}
+.grey-darken-1,
+.grey-darken-1-hover:hover,
+.grey-darken-1-active:active {
+  background-color: #757575;
+}
+.grey-darken-2,
+.grey-darken-2-hover:hover,
+.grey-darken-2-active:active {
+  background-color: #616161;
+}
+.grey-darken-3,
+.grey-darken-3-hover:hover,
+.grey-darken-3-active:active {
+  background-color: #424242;
+}
+.grey-darken-4,
+.grey-darken-4-hover:hover,
+.grey-darken-4-active:active {
+  background-color: #212121;
+}
+.blue-grey-lighten-5,
+.blue-grey-lighten-5-hover:hover,
+.blue-grey-lighten-5-active:active {
+  background-color: #eceff1;
+}
+.blue-grey-lighten-4,
+.blue-grey-lighten-4-hover:hover,
+.blue-grey-lighten-4-active:active {
+  background-color: #cfd8dc;
+}
+.blue-grey-lighten-3,
+.blue-grey-lighten-3-hover:hover,
+.blue-grey-lighten-3-active:active {
+  background-color: #b0bec5;
+}
+.blue-grey-lighten-2,
+.blue-grey-lighten-2-hover:hover,
+.blue-grey-lighten-2-active:active {
+  background-color: #90a4ae;
+}
+.blue-grey-lighten-1,
+.blue-grey-lighten-1-hover:hover,
+.blue-grey-lighten-1-active:active {
+  background-color: #78909c;
+}
+.blue-grey,
+.blue-grey-hover:hover,
+.blue-grey-active:active {
+  background-color: #607d8b;
+}
+.blue-grey-darken-1,
+.blue-grey-darken-1-hover:hover,
+.blue-grey-darken-1-active:active {
+  background-color: #546e7a;
+}
+.blue-grey-darken-2,
+.blue-grey-darken-2-hover:hover,
+.blue-grey-darken-2-active:active {
+  background-color: #455a64;
+}
+.blue-grey-darken-3,
+.blue-grey-darken-3-hover:hover,
+.blue-grey-darken-3-active:active {
+  background-color: #37474f;
+}
+.blue-grey-darken-4,
+.blue-grey-darken-4-hover:hover,
+.blue-grey-darken-4-active:active {
+  background-color: #263238;
+}
+.white,
+.white-hover:hover,
+.white-active:active {
+  background-color: #fff;
+}

@@ -1,0 +1,68 @@
+@import "__vars.less";
+@import "mixins/_color-bg.less";
+
+/*
+=================================================================================================
+# 3 Background Colors
+-------------------------------------------------------------------------------------------------
+*/
+
+@colors: red, pink, purple, deep-purple, indigo, blue, light-blue, cyan, teal, green, light-green, lime, yellow, amber, orange, deep-orange;
+@colors_no_accent: brown, grey, blue-grey;
+@colors_no_accent_shade: white, black;
+
+.color_background_loop(@color-number:1) when (@color-number <= length(@colors)) {
+   @color: extract(extract(@colors, @color-number),1);
+
+   .color_light_shade_background_loop(@i: 5) when (@i > 0){
+      .color-background(~"@{color}-lighten-@{i}");
+      .color_light_shade_background_loop((@i - 1));
+   }
+   .color_light_shade_background_loop();
+
+   .color-background(@color);
+
+   .color_dark_shade_background_loop(@j: 1) when (@j < 5){
+      .color-background(~"@{color}-darken-@{j}");
+      .color_dark_shade_background_loop((@j + 1));
+   }
+   .color_dark_shade_background_loop();
+
+   .color_accent_background_loop(@k: 1) when (@k < 5){
+      .color-background(~"@{color}-accent-@{k}");
+      .color_accent_background_loop((@k + 1));
+   }
+   .color_accent_background_loop();
+
+   .color_background_loop((@color-number + 1));
+}
+.color_background_loop();
+
+.color_no_accent_background_loop(@color-number:1) when (@color-number <= length(@colors_no_accent)) {
+   @color: extract(extract(@colors_no_accent, @color-number),1);
+
+   .color_light_shade_background_loop(@i: 5) when (@i > 0){
+      .color-background(~"@{color}-lighten-@{i}");
+      .color_light_shade_background_loop((@i - 1));
+   }
+   .color_light_shade_background_loop();
+
+   .color-background(@color);
+
+   .color_dark_shade_background_loop(@j: 1) when (@j < 5){
+      .color-background(~"@{color}-darken-@{j}");
+      .color_dark_shade_background_loop((@j + 1));
+   }
+   .color_dark_shade_background_loop();
+
+   .color_no_accent_background_loop((@color-number + 1));
+}
+.color_no_accent_background_loop();
+
+.color_no_accent_shade_background_loop(@color-number:1) when (@color-number <= length(@colors_no_accent_shade)) {
+   @color: extract(extract(@colors_no_accent_shade, @color-number),1);
+
+   .color-background(@color);
+
+}
+.color_no_accent_shade_background_loop();
