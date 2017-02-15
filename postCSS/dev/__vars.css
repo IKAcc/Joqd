@@ -12,8 +12,9 @@ $h5-font-size: 1.4rem;
 $h6-font-size: 1.2rem;
 
 
-
 $gutter: 2.4rem;
+
+$columns-count: 12;
 
 $desktop-contianer-width: 117rem;
 $laptop-contianer-width: 97rem;

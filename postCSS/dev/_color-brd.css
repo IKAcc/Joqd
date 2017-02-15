@@ -1,6 +1,12 @@
 @import '__vars.css';
 @import 'mixins/_color-brd.css';
 
+/*
+=================================================================================================
+# 5 Border Colors
+-------------------------------------------------------------------------------------------------
+*/
+
 @each $color in red, pink, purple, deep-purple, indigo, blue, light-blue, cyan, teal, green, light-green, lime, yellow, amber, orange, deep-orange{
   @for $i from 1 to 5 {
     @mixin color-border $(color)-lighten-$(i);

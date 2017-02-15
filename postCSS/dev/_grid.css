@@ -1,6 +1,12 @@
 @import '__vars.css';
 @import 'mixins/_grid.css';
 
+/*
+=================================================================================================
+# 2 Grid
+-------------------------------------------------------------------------------------------------
+*/
+
 body{margin: 0}
 
 *{box-sizing: border-box;}
@@ -34,7 +40,6 @@ body{margin: 0}
 
   @for $i from 1 to 12 {
     @mixin grid-main desktop, $i;
-    @mixin grid-order desktop, $i;
     @mixin grid-offset desktop, $i;
   }
 
