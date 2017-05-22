@@ -3435,6 +3435,36 @@ body{margin: 0}
 .align-left{text-align: left}
 
 /*
+  =============================================================================================
+  # 9.2 Ratio
+  ---------------------------------------------------------------------------------------------
+  */
+
+.ratio-golden{
+      position: relative;
+    }
+
+.ratio-golden:before{display: block;content: "";width: 100%;padding-top: 61.8047%}
+
+.ratio-golden > .ratio-content{position: absolute;top: 0;right: 0;bottom: 0;left: 0}
+
+.ratio-4-3{
+      position: relative;
+    }
+
+.ratio-4-3:before{display: block;content: "";width: 100%;padding-top: 75%}
+
+.ratio-4-3 > .ratio-content{position: absolute;top: 0;right: 0;bottom: 0;left: 0}
+
+.ratio-16-9{
+      position: relative;
+    }
+
+.ratio-16-9:before{display: block;content: "";width: 100%;padding-top: 56.25%}
+
+.ratio-16-9 > .ratio-content{position: absolute;top: 0;right: 0;bottom: 0;left: 0}
+
+/*
 =================================================================================================
 # 11 Images
 -------------------------------------------------------------------------------------------------
