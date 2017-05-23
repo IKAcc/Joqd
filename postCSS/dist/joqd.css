@@ -23,100 +23,93 @@ html{font-size: 62.5%}
    		   url('../fonts/Vazir/Vazir-bold.ttf') format('truetype')}
 
 body{
-   font-family: 'Roboto', 'Vazir', arial;
-   font-size: 16px;
-   font-size: 1.6rem}
+    font-family: 'Roboto', 'Vazir', arial;
+    font-size: 16px;
+    font-size: 1.6rem}
 
 h1, .h1,
-h2, .h2,
-h3, .h3,
-h4, .h4,
-h5, .h5,
-h6, .h6{
-   font-family: inherit;
-   line-height: 1.1;
-   color: inherit;}
+  h2, .h2,
+  h3, .h3,
+  h4, .h4,
+  h5, .h5,
+  h6, .h6{
+     font-family: inherit;
+     line-height: 1.86667;
+     color: inherit}
 
 h1, .h1{
-   font-size: 36px;
-   font-size: 3.6rem;
-   font-weight: 700;
-}
+     font-size: 36px;
+     font-size: 3.6rem;
+     font-weight: 700}
 
 h2, .h2{
-   font-size: 30px;
-   font-size: 3rem;
-   font-weight: 600;
-}
+     font-size: 30px;
+     font-size: 3rem;
+     font-weight: 600}
 
 h3, .h3{
-   font-size: 24px;
-   font-size: 2.4rem;
-   font-weight: 500;
-}
+     font-size: 24px;
+     font-size: 2.4rem;
+     font-weight: 500}
 
 h4, .h4{
-   font-size: 18px;
-   font-size: 1.8rem;
-   font-weight: 500;
-}
+     font-size: 18px;
+     font-size: 1.8rem;
+     font-weight: 500}
 
 h5, .h5{
-   font-size: 14px;
-   font-size: 1.4rem;
-   font-weight: 500;
-}
+     font-size: 14px;
+     font-size: 1.4rem;
+     font-weight: 500}
 
 h6, .h6{
-   font-size: 12px;
-   font-size: 1.2rem;
-   font-weight: 500;
-}
+     font-size: 12px;
+     font-size: 1.2rem;
+     font-weight: 500}
 
 h1 small, .h1 small,
-h1 .small, .h1 .small,
-h2 small, .h2 small,
-h2 .small, .h2 .small,
-h3 small, .h3 small,
-h3 .small, .h3 .small,
-h4 small, .h4 small,
-h4 .small, .h4 .small,
-h5 small, .h5 small,
-h5 .small, .h5 .small,
-h6 small, .h6 small,
-h6 .small, .h6 .small{
-   font-family: inherit;
-   line-height: 1.1;
-   color: inherit;}
+  h1 .small, .h1 .small,
+  h2 small, .h2 small,
+  h2 .small, .h2 .small,
+  h3 small, .h3 small,
+  h3 .small, .h3 .small,
+  h4 small, .h4 small,
+  h4 .small, .h4 .small,
+  h5 small, .h5 small,
+  h5 .small, .h5 .small,
+  h6 small, .h6 small,
+  h6 .small, .h6 .small{
+     font-family: inherit;
+     line-height: 1.4;
+     color: inherit}
 
 p{
-	font-weight: 400;
-	font-size: 14px;
-	font-size: 1.4rem;
-	line-height: 14.28px;
-	line-height: 1.428rem;
-   margin: 0 0 10px;
-   margin: 0 0 1rem}
+    font-weight: 400;
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    margin: 0 0 10px;
+    margin: 0 0 1rem}
 
 :lang(fa) q,
-:lang(ar) q,
-:lang(ur) q{quotes: "«" "»" "«" "»";}
+  :lang(ar) q,
+  :lang(ur) q{quotes: "«" "»" "«" "»"}
 
-:lang(en) q{quotes: '“' '”' '‘' '’';}
+:lang(en) q{quotes: '“' '”' '‘' '’'}
 
-:lang(de) q{quotes: '„' '“';}
+:lang(de) q{quotes: '„' '“'}
 
-:lang(fr) q{quotes: '« ' ' »' '‹ ' ' ›';}
+:lang(fr) q{quotes: '« ' ' »' '‹ ' ' ›'}
 
-q:before{content: open-quote;}
+q:before{content: open-quote}
 
-q:after{content: close-quote;}
+q:after{content: close-quote}
 
-small, .small{font-size: 85%;}
+small, .small{font-size: 85%}
 
 a.link{
-	text-decoration: none;
-	outline: none;}
+      text-decoration: none;
+      outline: none}
 
 /*
 =================================================================================================
@@ -3563,6 +3556,42 @@ body{margin: 0}
 .ratio-16-9:before{display: block;content: "";width: 100%;padding-top: 56.25%}
 
 .ratio-16-9 > .ratio-content{position: absolute;top: 0;right: 0;bottom: 0;left: 0}
+
+/*
+  =================================================================================================
+  # 9.2 Maximum Lines
+  -------------------------------------------------------------------------------------------------
+  */
+
+[class*='max-line-']{
+      display: block;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      position: relative;
+      overflow: hidden;
+    }
+
+[class*='max-line-']:after{content: '';bottom: 0;left: 0;display: block;position: absolute;width: 72px;width: 7.2rem}
+
+.max-line-1{-webkit-line-clamp: 1;height: 1.4em}
+
+.max-line-1:after{height: 1.4em;background: -webkit-linear-gradient(right, transparent, transparent 66.6667%);background: linear-gradient(to left, transparent, transparent 66.6667%)}
+
+.max-line-2{-webkit-line-clamp: 2;height: 2.8em}
+
+.max-line-2:after{height: 1.4em;background: -webkit-linear-gradient(right, transparent, transparent 66.6667%);background: linear-gradient(to left, transparent, transparent 66.6667%)}
+
+.max-line-3{-webkit-line-clamp: 3;height: 4.2em}
+
+.max-line-3:after{height: 1.4em;background: -webkit-linear-gradient(right, transparent, transparent 66.6667%);background: linear-gradient(to left, transparent, transparent 66.6667%)}
+
+.max-line-4{-webkit-line-clamp: 4;height: 5.6em}
+
+.max-line-4:after{height: 1.4em;background: -webkit-linear-gradient(right, transparent, transparent 66.6667%);background: linear-gradient(to left, transparent, transparent 66.6667%)}
+
+.max-line-5{-webkit-line-clamp: 5;height: 7em}
+
+.max-line-5:after{height: 1.4em;background: -webkit-linear-gradient(right, transparent, transparent 66.6667%);background: linear-gradient(to left, transparent, transparent 66.6667%)}
 
 /*
 =================================================================================================

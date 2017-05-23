@@ -1,0 +1,8 @@
+@define-mixin max-line $numbers-of-lines, $line-height, $color: transpatent{
+  -webkit-line-clamp: $numbers-of-lines;
+  height: calc(1em * $line-height * $numbers-of-lines);
+  &:after{
+    height: calc($line-height)em;
+    background: linear-gradient(to left, transparent, $color 66.6667%);
+  }
+}

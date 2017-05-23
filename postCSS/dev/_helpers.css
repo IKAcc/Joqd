@@ -1,5 +1,6 @@
 @import '__vars.css';
 @import 'mixins/_ratio.css';
+@import 'mixins/_maxLine.css';
 
 /*
 =================================================================================================
@@ -53,4 +54,30 @@
 
     .ratio-16-9{
       @mixin aspect-ratio 16, 9;
+    }
+
+  /*
+  =================================================================================================
+  # 9.2 Maximum Lines
+  -------------------------------------------------------------------------------------------------
+  */
+
+    [class*='max-line-']{
+      display: block;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      position: relative;
+      overflow: hidden;
+      &:after{
+        content: '';
+        bottom: 0; left: 0;
+        display: block;
+        position: absolute;
+        width: calc($gutter * 3)}
+    }
+
+    @for $i from 1 to 5{
+      .max-line-$(i){
+        @mixin max-line $i, $line-height, transparent;
+      }
     }

@@ -7,96 +7,90 @@
 -------------------------------------------------------------------------------------------------
 */
 
-html{font-size: 62.5%}
+  html{font-size: 62.5%}
 
-@mixin font $english-font, regular, $(english-font)-regular;
-@mixin font $english-font, bold, $(english-font)-bold;
+  @mixin font $english-font, regular, $(english-font)-regular;
+  @mixin font $english-font, bold, $(english-font)-bold;
 
-@mixin font $farsi-font, regular, $(farsi-font)-regular;
-@mixin font $farsi-font, bold, $(farsi-font)-bold;
+  @mixin font $farsi-font, regular, $(farsi-font)-regular;
+  @mixin font $farsi-font, bold, $(farsi-font)-bold;
 
-body{
-   font-family: '$english-font', '$farsi-font', arial;
-   font-size: 1.6rem}
+  body{
+    font-family: '$english-font', '$farsi-font', arial;
+    font-size: 1.6rem}
 
-h1, .h1,
-h2, .h2,
-h3, .h3,
-h4, .h4,
-h5, .h5,
-h6, .h6{
-   font-family: inherit;
-   line-height: 1.1;
-   color: inherit;}
+  h1, .h1,
+  h2, .h2,
+  h3, .h3,
+  h4, .h4,
+  h5, .h5,
+  h6, .h6{
+     font-family: inherit;
+     line-height: calc($line-height + ($line-height / 3));
+     color: inherit}
 
-h1, .h1{
-   font-size: $h1-font-size;
-   font-weight: 700;
-}
+  h1, .h1{
+     font-size: $h1-font-size;
+     font-weight: 700}
 
-h2, .h2{
-   font-size: $h2-font-size;
-   font-weight: 600;
-}
+  h2, .h2{
+     font-size: $h2-font-size;
+     font-weight: 600}
 
-h3, .h3{
-   font-size: $h3-font-size;
-   font-weight: 500;
-}
+  h3, .h3{
+     font-size: $h3-font-size;
+     font-weight: 500}
 
-h4, .h4{
-   font-size: $h4-font-size;
-   font-weight: 500;
-}
+  h4, .h4{
+     font-size: $h4-font-size;
+     font-weight: 500}
 
-h5, .h5{
-   font-size: $h5-font-size;
-   font-weight: 500;
-}
+  h5, .h5{
+     font-size: $h5-font-size;
+     font-weight: 500}
 
-h6, .h6{
-   font-size: $h6-font-size;
-   font-weight: 500;
-}
+  h6, .h6{
+     font-size: $h6-font-size;
+     font-weight: 500}
 
-h1 small, .h1 small,
-h1 .small, .h1 .small,
-h2 small, .h2 small,
-h2 .small, .h2 .small,
-h3 small, .h3 small,
-h3 .small, .h3 .small,
-h4 small, .h4 small,
-h4 .small, .h4 .small,
-h5 small, .h5 small,
-h5 .small, .h5 .small,
-h6 small, .h6 small,
-h6 .small, .h6 .small{
-   font-family: inherit;
-   line-height: 1.1;
-   color: inherit;}
+  h1 small, .h1 small,
+  h1 .small, .h1 .small,
+  h2 small, .h2 small,
+  h2 .small, .h2 .small,
+  h3 small, .h3 small,
+  h3 .small, .h3 .small,
+  h4 small, .h4 small,
+  h4 .small, .h4 .small,
+  h5 small, .h5 small,
+  h5 .small, .h5 .small,
+  h6 small, .h6 small,
+  h6 .small, .h6 .small{
+     font-family: inherit;
+     line-height: $line-height;
+     color: inherit}
 
-p{
-	font-weight: 400;
-	font-size: 1.4rem;
-	line-height: 1.428rem;
-   margin: 0 0 1rem}
+  p{
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: $line-height;
+    margin: 0 0 1rem}
 
-:lang(fa) q,
-:lang(ar) q,
-:lang(ur) q{quotes: "«" "»" "«" "»";}
+  :lang(fa) q,
+  :lang(ar) q,
+  :lang(ur) q{quotes: "«" "»" "«" "»"}
 
-:lang(en) q{quotes: '“' '”' '‘' '’';}
+  :lang(en) q{quotes: '“' '”' '‘' '’'}
 
-:lang(de) q{quotes: '„' '“';}
+  :lang(de) q{quotes: '„' '“'}
 
-:lang(fr) q{quotes: '« ' ' »' '‹ ' ' ›';}
+  :lang(fr) q{quotes: '« ' ' »' '‹ ' ' ›'}
 
-q:before{content: open-quote;}
+  q:before{content: open-quote}
 
-q:after{content: close-quote;}
+  q:after{content: close-quote}
 
-small, .small{font-size: 85%;}
+  small, .small{font-size: 85%}
 
-a.link{
-	text-decoration: none;
-	outline: none;}
+  a.link{
+      text-decoration: none;
+      outline: none}
