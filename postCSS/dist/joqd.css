@@ -3434,6 +3434,33 @@ body{margin: 0}
 
 .align-left{text-align: left}
 
+.align-top{-ms-flex-item-align: start;align-self: flex-start}
+
+.align-middle{-ms-flex-item-align: center;-ms-grid-row-align: center;align-self: center}
+
+.align-bottom{-ms-flex-item-align: end;align-self: flex-end}
+
+.align-content-top{
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      -ms-flex-line-pack: start;
+          align-content: flex-start}
+
+.align-content-middle{
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -ms-flex-line-pack: center;
+          align-content: center}
+
+.align-content-bottom{
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end;
+      -ms-flex-line-pack: end;
+          align-content: flex-end}
+
 /*
   =============================================================================================
   # 9.2 Ratio
@@ -3442,6 +3469,7 @@ body{margin: 0}
 
 .ratio-golden{
       position: relative;
+      overflow: hidden;
     }
 
 .ratio-golden:before{display: block;content: "";width: 100%;padding-top: 61.8047%}
@@ -3450,6 +3478,7 @@ body{margin: 0}
 
 .ratio-4-3{
       position: relative;
+      overflow: hidden;
     }
 
 .ratio-4-3:before{display: block;content: "";width: 100%;padding-top: 75%}
@@ -3458,6 +3487,7 @@ body{margin: 0}
 
 .ratio-16-9{
       position: relative;
+      overflow: hidden;
     }
 
 .ratio-16-9:before{display: block;content: "";width: 100%;padding-top: 56.25%}

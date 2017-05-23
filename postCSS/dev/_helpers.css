@@ -19,6 +19,24 @@
 
     .align-left{text-align: left}
 
+    .align-top{align-self: flex-start}
+
+    .align-middle{align-self: center}
+
+    .align-bottom{align-self: flex-end}
+
+    .align-content-top{
+      align-items: flex-start;
+      align-content: flex-start}
+
+    .align-content-middle{
+      align-items: center;
+      align-content: center}
+
+    .align-content-bottom{
+      align-items: flex-end;
+      align-content: flex-end}
+
   /*
   =============================================================================================
   # 9.2 Ratio
