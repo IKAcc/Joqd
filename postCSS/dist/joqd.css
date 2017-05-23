@@ -3418,6 +3418,76 @@ body{margin: 0}
 
 /*
 =================================================================================================
+# 8 Corners
+-------------------------------------------------------------------------------------------------
+*/
+
+/*
+  =============================================================================================
+  # 8.1 Soft
+  ---------------------------------------------------------------------------------------------
+  */
+
+.soft-corner{border-radius: 0.4rem}
+
+.soft-top-corner{border-top-right-radius: 4px;border-top-right-radius: 0.4rem;border-top-left-radius: 4px;border-top-left-radius: 0.4rem}
+
+.soft-right-corner{border-top-right-radius: 4px;border-top-right-radius: 0.4rem;border-bottom-right-radius: 4px;border-bottom-right-radius: 0.4rem}
+
+.soft-bottom-corner{border-bottom-right-radius: 4px;border-bottom-right-radius: 0.4rem;border-bottom-left-radius: 4px;border-bottom-left-radius: 0.4rem}
+
+.soft-left-corner{border-top-left-radius: 4px;border-top-left-radius: 0.4rem;border-bottom-left-radius: 4px;border-bottom-left-radius: 0.4rem}
+
+/*
+  =============================================================================================
+  # 8.2 Sharp
+  ---------------------------------------------------------------------------------------------
+  */
+
+.sharp-corner{border-radius: 0}
+
+.sharp-top-corner{border-top-right-radius: 0;border-top-left-radius: 0}
+
+.sharp-right-corner{border-top-right-radius: 0;border-bottom-right-radius: 0}
+
+.sharp-bottom-corner{border-bottom-right-radius: 0;border-bottom-left-radius: 0}
+
+.sharp-left-corner{border-top-left-radius: 0;border-bottom-left-radius: 0}
+
+/*
+  =============================================================================================
+  # 8.3 Round
+  ---------------------------------------------------------------------------------------------
+  */
+
+.round-corner{border-radius: 2rem}
+
+.round-top-corner{border-top-right-radius: 20px;border-top-right-radius: 2rem;border-top-left-radius: 20px;border-top-left-radius: 2rem}
+
+.round-right-corner{border-top-right-radius: 20px;border-top-right-radius: 2rem;border-bottom-right-radius: 20px;border-bottom-right-radius: 2rem}
+
+.round-bottom-corner{border-bottom-right-radius: 20px;border-bottom-right-radius: 2rem;border-bottom-left-radius: 20px;border-bottom-left-radius: 2rem}
+
+.round-left-corner{border-top-left-radius: 20px;border-top-left-radius: 2rem;border-bottom-left-radius: 20px;border-bottom-left-radius: 2rem}
+
+/*
+  =============================================================================================
+  # 8.4 Circle
+  ---------------------------------------------------------------------------------------------
+  */
+
+.circle-corner{border-radius: 50%}
+
+.circle-top-corner{border-top-right-radius: 50%;border-top-left-radius: 50%}
+
+.circle-right-corner{border-top-right-radius: 50%;border-bottom-right-radius: 50%}
+
+.circle-bottom-corner{border-bottom-right-radius: 50%;border-bottom-left-radius: 50%}
+
+.circle-left-corner{border-top-left-radius: 50%;border-bottom-left-radius: 50%}
+
+/*
+=================================================================================================
 # 9 Helpers
 -------------------------------------------------------------------------------------------------
 */

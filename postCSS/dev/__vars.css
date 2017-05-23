@@ -29,6 +29,10 @@ $tablet-min: 768px;
 $mobile-max: 767px;
 $mobile-min: 0;
 
+$soft-border-radius: 0.4rem;
+$sharp-border-radius: 0;
+$round-border-radius: 2rem;
+$circle-border-radius: 50%;
 
 $red-lighten-5: #ffebee;
 $red-lighten-4: #ffcdd2;

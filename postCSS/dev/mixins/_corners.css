@@ -1,0 +1,21 @@
+@define-mixin corner $type{
+
+  .$(type)-corner{border-radius: $($(type)-border-radius)}
+
+  .$(type)-top-corner{
+    border-top-right-radius: $($(type)-border-radius);
+    border-top-left-radius: $($(type)-border-radius)}
+
+  .$(type)-right-corner{
+    border-top-right-radius: $($(type)-border-radius);
+    border-bottom-right-radius: $($(type)-border-radius)}
+
+  .$(type)-bottom-corner{
+    border-bottom-right-radius: $($(type)-border-radius);
+    border-bottom-left-radius: $($(type)-border-radius)}
+
+  .$(type)-left-corner{
+    border-top-left-radius: $($(type)-border-radius);
+    border-bottom-left-radius: $($(type)-border-radius)}
+
+}

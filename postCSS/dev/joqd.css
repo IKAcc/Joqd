@@ -8,6 +8,8 @@
 
 @import '_color-brd';
 
+@import '_corners';
+
 @import '_helpers';
 
 @import '_images';
