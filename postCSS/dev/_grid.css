@@ -7,59 +7,65 @@
 -------------------------------------------------------------------------------------------------
 */
 
-body{margin: 0}
+  body{margin: 0}
 
-*{box-sizing: border-box;}
+  *{box-sizing: border-box}
 
-.container-narrow,
-.container{
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto
-}
+  .container-narrow,
+  .container{
+    width: 100%;
+    margin: * auto}
 
-.row,
-.row-reversed{
-  display: flex;
-  flex: 0 1 auto;
-  flex-wrap: wrap
-}
-
-.row{flex-direction: row}
-
-.row-reversed{flex-direction: row-reverse}
-
-@media screen and ( min-width: $desktop-min ){
-
-  .container{max-width: $desktop-contianer-width}
-
-  [class*='desktop-']{
-    padding: calc($gutter / 2);
-    flex: 0 0 auto
+  .row,
+  .row-reversed{
+    display: flex;
+    flex: 0 1 auto;
+    flex-wrap: wrap
   }
 
-  @for $i from 1 to 12 {
-    @mixin grid-main desktop, $i;
-    @mixin grid-offset desktop, $i;
-  }
+  .row{flex-direction: row}
 
-}
+  .row-reversed{flex-direction: row-reverse}
 
-@each $device in laptop, tablet, mobile{
+  @media screen and ( min-width: $desktop-min ){
 
-  @media screen and ( min-width: $($(device)-min) ) and ( max-width: $($(device)-max) ){
+    .container{max-width: $desktop-contianer-width}
 
-    .container{max-width: $($(device)-contianer-width)}
-
-    [class*='$(device)-']{
+    [class*='desktop-']{
       padding: calc($gutter / 2);
       flex: 0 0 auto
     }
 
     @for $i from 1 to 12 {
-      @mixin grid-main $device, $i;
+      @mixin grid-main desktop, $i;
+      @mixin grid-offset desktop, $i;
     }
 
   }
 
-}
+  @each $device in laptop, tablet, mobile{
+
+    @media screen and ( min-width: $($(device)-min) ) and ( max-width: $($(device)-max) ){
+
+      .container{max-width: $($(device)-contianer-width)}
+
+      [class*='$(device)-']{
+        padding: calc($gutter / 2);
+        flex: 0 0 auto
+      }
+
+      @for $i from 1 to 12 {
+        @mixin grid-main $device, $i;
+      }
+
+    }
+
+  }
+
+  .no-padding{padding: 0}
+
+  .no-gaps{padding: * 0}
+
+  .no-gutter{padding: 0 *}
+
+  .no-margin{margin: 0}
