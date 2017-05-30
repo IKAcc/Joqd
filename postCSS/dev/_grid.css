@@ -34,13 +34,16 @@ flex-wrap: wrap}
 .row-reversed{flex-direction: row-reverse}
 
 @for $i from 1 to 12 {
-@mixin grid-main all, $i;
-@mixin grid-offset all, $i;
+  @mixin grid-main all, $i;
+  @mixin grid-offset all, $i;
 }
 
 [class*='all-']{
-padding: calc($gutter / 2);
-flex: 0 0 auto}
+  padding: calc($gutter / 2);
+  flex: 0 0 auto}
+
+.all-auto{flex-grow: 1}
+
 
 @media screen and ( min-width: $desktop-min ){
 
@@ -54,6 +57,8 @@ flex: 0 0 auto}
   @mixin grid-main desktop, $i;
   @mixin grid-offset desktop, $i;
 }
+
+.desktop-auto{flex-grow: 1}
 
 }
 
@@ -71,6 +76,8 @@ flex: 0 0 auto}
   @for $i from 1 to 12 {
     @mixin grid-main $device, $i;
   }
+
+  .$(device)-auto{flex-grow: 1}
 
 }
 
