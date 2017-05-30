@@ -75,6 +75,7 @@ flex-wrap: wrap}
 
   @for $i from 1 to 12 {
     @mixin grid-main $device, $i;
+    @mixin grid-offset $device, $i;
   }
 
   .$(device)-auto{flex-grow: 1}
