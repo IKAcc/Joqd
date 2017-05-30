@@ -85,9 +85,15 @@ flex-wrap: wrap}
 }
 
 .no-padding{padding: 0}
+.half-padding{padding: calc($gutter / 4)}
+.double-padding{padding: $gutter}
 
 .no-gaps{padding: * 0}
+.half-gaps{padding: * calc($gutter / 4)}
+.double-gaps{padding: * $gutter}
 
 .no-gutter{padding: 0 *}
+.half-gutter{padding: calc($gutter / 4) *}
+.double-gutter{padding: $gutter  *}
 
 .no-margin{margin: 0}

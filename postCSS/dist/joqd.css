@@ -557,9 +557,21 @@ display: flex;
 
 .no-padding{padding: 0}
 
+.half-padding{padding: 6px;padding: 0.6rem}
+
+.double-padding{padding: 24px;padding: 2.4rem}
+
 .no-gaps{padding-right: 0;padding-left: 0}
 
+.half-gaps{padding-right: 6px;padding-right: 0.6rem;padding-left: 6px;padding-left: 0.6rem}
+
+.double-gaps{padding-right: 24px;padding-right: 2.4rem;padding-left: 24px;padding-left: 2.4rem}
+
 .no-gutter{padding-top: 0;padding-bottom: 0}
+
+.half-gutter{padding-top: 6px;padding-top: 0.6rem;padding-bottom: 6px;padding-bottom: 0.6rem}
+
+.double-gutter{padding-top: 24px;padding-top: 2.4rem;padding-bottom: 24px;padding-bottom: 2.4rem}
 
 .no-margin{margin: 0}
 
