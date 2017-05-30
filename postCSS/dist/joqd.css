@@ -4074,23 +4074,23 @@ body{margin: 0}
 
 .max-line-1{-webkit-line-clamp: 1;height: 1.4em}
 
-.max-line-1:after{height: 1.4em;background: -webkit-linear-gradient(right, transparent, transparent 66.6667%);background: linear-gradient(to left, transparent, transparent 66.6667%)}
+.max-line-1:after{height: 1.4em;background: -webkit-linear-gradient(right, rgba(0, 0, 0, 0), transparent 66.6667%);background: linear-gradient(to left, rgba(0, 0, 0, 0), transparent 66.6667%)}
 
 .max-line-2{-webkit-line-clamp: 2;height: 2.8em}
 
-.max-line-2:after{height: 1.4em;background: -webkit-linear-gradient(right, transparent, transparent 66.6667%);background: linear-gradient(to left, transparent, transparent 66.6667%)}
+.max-line-2:after{height: 1.4em;background: -webkit-linear-gradient(right, rgba(0, 0, 0, 0), transparent 66.6667%);background: linear-gradient(to left, rgba(0, 0, 0, 0), transparent 66.6667%)}
 
 .max-line-3{-webkit-line-clamp: 3;height: 4.2em}
 
-.max-line-3:after{height: 1.4em;background: -webkit-linear-gradient(right, transparent, transparent 66.6667%);background: linear-gradient(to left, transparent, transparent 66.6667%)}
+.max-line-3:after{height: 1.4em;background: -webkit-linear-gradient(right, rgba(0, 0, 0, 0), transparent 66.6667%);background: linear-gradient(to left, rgba(0, 0, 0, 0), transparent 66.6667%)}
 
 .max-line-4{-webkit-line-clamp: 4;height: 5.6em}
 
-.max-line-4:after{height: 1.4em;background: -webkit-linear-gradient(right, transparent, transparent 66.6667%);background: linear-gradient(to left, transparent, transparent 66.6667%)}
+.max-line-4:after{height: 1.4em;background: -webkit-linear-gradient(right, rgba(0, 0, 0, 0), transparent 66.6667%);background: linear-gradient(to left, rgba(0, 0, 0, 0), transparent 66.6667%)}
 
 .max-line-5{-webkit-line-clamp: 5;height: 7em}
 
-.max-line-5:after{height: 1.4em;background: -webkit-linear-gradient(right, transparent, transparent 66.6667%);background: linear-gradient(to left, transparent, transparent 66.6667%)}
+.max-line-5:after{height: 1.4em;background: -webkit-linear-gradient(right, rgba(0, 0, 0, 0), transparent 66.6667%);background: linear-gradient(to left, rgba(0, 0, 0, 0), transparent 66.6667%)}
 
 /*
 =================================================================================================
