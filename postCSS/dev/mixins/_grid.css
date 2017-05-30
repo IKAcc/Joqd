@@ -1,21 +1,24 @@
-@define-mixin grid-main $device-name, $collom-number{
+@define-mixin grid-main $device-name, $column-number{
 
-  .$(device-name)-$(collom-number){
+  .$(device-name)-$(column-number){flex-basis: calc( (100 * $column-number) / $columns-count )%}
 
-    flex-basis: calc( (100 * $collom-number) / $columns-count )%;
-    max-width: calc( (100 * $collom-number) / $columns-count )%;
+  .row, .row-reversed{
+    & > .$(device-name)-$(column-number){max-width: calc( (100 * $column-number) / $columns-count )%}
+  }
 
+  .column, .column-reversed{
+    & > .$(device-name)-$(column-number){max-height: calc( (100 * $column-number) / $columns-count )%}
   }
 
 }
 
-@define-mixin grid-offset $device-name, $collom-number{
+@define-mixin grid-offset $device-name, $column-number{
 
   *[dir="ltr"]{
-    .$(device-name)-offset-$(collom-number){margin-left: calc( (100 * $collom-number) / $columns-count )%;}
+    .$(device-name)-offset-$(column-number){margin-left: calc( (100 * $column-number) / $columns-count )%;}
   }
   *[dir="rtl"]{
-    .$(device-name)-offset-$(collom-number){margin-right: calc( (100 * $collom-number) / $columns-count )%;}
+    .$(device-name)-offset-$(column-number){margin-right: calc( (100 * $column-number) / $columns-count )%;}
   }
 
 }

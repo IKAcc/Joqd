@@ -7,36 +7,31 @@
 -------------------------------------------------------------------------------------------------
 */
 
-/*
-=================================================================================================
-# 2 Grid
--------------------------------------------------------------------------------------------------
-*/
-
 body{margin: 0}
 
 *{box-sizing: border-box}
 
 .container-narrow,
 .container{
-width: 100%;
-margin-right: auto;
-margin-left: auto}
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto}
 
 .row,
-.row-reversed{
-display: flex;
-flex: 0 1 auto;
-flex-wrap: wrap}
+.row-reversed,
+.column,
+.column-reversed{
+  display: flex;
+  flex: 0 1 auto;
+  flex-wrap: wrap}
+
+.column,
+.column-reversed{height: 100%}
 
 .row{flex-direction: row}
-
 .row-reversed{flex-direction: row-reverse}
-
-@for $i from 1 to 12 {
-  @mixin grid-main all, $i;
-  @mixin grid-offset all, $i;
-}
+.column{flex-direction: column}
+.column-reversed{flex-direction: column-reverse}
 
 [class*='all-']{
   padding: calc($gutter / 2);
@@ -44,43 +39,47 @@ flex-wrap: wrap}
 
 .all-auto{flex-grow: 1}
 
+@for $i from 1 to 12 {
+  @mixin grid-main all, $i;
+  @mixin grid-offset all, $i;
+}
 
 @media screen and ( min-width: $desktop-min ){
 
-.container{max-width: $desktop-contianer-width}
+  .container{max-width: $desktop-contianer-width}
 
-[class*='desktop-']{
-  padding: calc($gutter / 2);
-  flex: 0 0 auto}
+  [class*='desktop-']{
+    padding: calc($gutter / 2);
+    flex: 0 0 auto}
 
-@for $i from 1 to 12 {
-  @mixin grid-main desktop, $i;
-  @mixin grid-offset desktop, $i;
-}
+  @for $i from 1 to 12 {
+    @mixin grid-main desktop, $i;
+    @mixin grid-offset desktop, $i;
+  }
 
-.desktop-auto{flex-grow: 1}
+  .desktop-auto{flex-grow: 1}
 
 }
 
 @each $device in laptop, tablet, mobile{
 
-@media screen and ( min-width: $($(device)-min) ) and ( max-width: $($(device)-max) ){
+  @media screen and ( min-width: $($(device)-min) ) and ( max-width: $($(device)-max) ){
 
-  .container{max-width: $($(device)-contianer-width)}
+    .container{max-width: $($(device)-contianer-width)}
 
-  [class*='$(device)-']{
-    padding: calc($gutter / 2);
-    flex: 0 0 auto
+    [class*='$(device)-']{
+      padding: calc($gutter / 2);
+      flex: 0 0 auto
+    }
+
+    @for $i from 1 to 12 {
+      @mixin grid-main $device, $i;
+      @mixin grid-offset $device, $i;
+    }
+
+    .$(device)-auto{flex-grow: 1}
+
   }
-
-  @for $i from 1 to 12 {
-    @mixin grid-main $device, $i;
-    @mixin grid-offset $device, $i;
-  }
-
-  .$(device)-auto{flex-grow: 1}
-
-}
 
 }
 
