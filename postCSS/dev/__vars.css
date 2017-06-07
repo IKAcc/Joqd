@@ -35,6 +35,9 @@ $sharp-border-radius: 0;
 $round-border-radius: 2rem;
 $circle-border-radius: 50%;
 
+$thick-border-width: 0.2rem;
+$thin-border-width: 0.1rem;
+
 $red-lighten-5: #ffebee;
 $red-lighten-4: #ffcdd2;
 $red-lighten-3: #ef9a9a;

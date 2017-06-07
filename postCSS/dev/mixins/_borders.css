@@ -1,0 +1,27 @@
+@define-mixin border $type{
+
+  .$(type)-border{
+    border-style: solid;
+    border-width: $($(type)-border-width)}
+
+  .$(type)-top-border{
+    border-top-style: solid;
+    border-top-width: $($(type)-border-width)
+  }
+
+  .$(type)-right-border{
+    border-right-style: solid;
+    border-right-width: $($(type)-border-width)
+  }
+
+  .$(type)-bottom-border{
+    border-bottom-style: solid;
+    border-bottom-width: $($(type)-border-width)
+  }
+
+  .$(type)-left-border{
+    border-left-style: solid;
+    border-left-width: $($(type)-border-width)
+  }
+
+}
