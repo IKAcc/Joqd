@@ -1,0 +1,35 @@
+@import '__vars.css';
+
+/*
+=================================================================================================
+# 16 Dropdowns
+-------------------------------------------------------------------------------------------------
+*/
+
+	ul.dropdown{
+		position: absolute;
+		right: 0;
+		width: 100%; max-height: $dropdownMaxHeight;
+		z-index: 999;
+		display: none;
+		overflow-y: auto;
+		li{
+			display: block;
+			padding: 1.4rem 1.6rem}
+		&.select{
+			li{cursor: pointer}
+			li.disabled{
+				cursor: default;
+				opacity: 0.3;
+				color: inherit;
+				background-color: transparent}
+		}
+	}
+
+
+	#dropdownTempWrapper{
+		size: 100%;
+		position: fixed;
+		right: 0; top: 0;
+		z-index: 999;
+		background-color: transparent}
