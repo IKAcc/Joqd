@@ -6,6 +6,13 @@
 -------------------------------------------------------------------------------------------------
 */
 
+  ::-webkit-search-decoration{display:none}
+
+  ::-webkit-file-upload-button{
+  	padding: 0;
+  	border: 0;
+  	background: none}
+
   /*
   =============================================================================================
   # 15.1 Inputs
@@ -27,11 +34,13 @@
           width: 100%;
     			padding: 1.2rem 0;
     			font-size: 1.6rem;
+          resize: vertical;
+          box-sizing:content-box;
     			border-top: 0; border-right: 0; border-left: 0;
-    			background-color: transparent;
-    			outline: none;
-    			box-shadow: none;
-    			resize: vertical}
+          background:none;
+          -webkit-appearance: none;
+          &:focus{outline: 0}
+        }
       }
 
   /*
