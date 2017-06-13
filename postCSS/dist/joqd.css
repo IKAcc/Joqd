@@ -412,6 +412,8 @@ body{margin: 0}
 
   .desktop-auto{-webkit-box-flex: 1;-ms-flex-positive: 1;flex-grow: 1}
 
+  .desktop-hidden{display: none}
+
 }
 
 @media screen and ( min-width: 992px ) and ( max-width: 1199px ){
@@ -540,7 +542,9 @@ body{margin: 0}
 
 *[dir="rtl"] .laptop-offset-12{margin-right: 100%}
 
-.laptop-auto{-webkit-box-flex: 1;-ms-flex-positive: 1;flex-grow: 1}}
+.laptop-auto{-webkit-box-flex: 1;-ms-flex-positive: 1;flex-grow: 1}
+
+.laptop-hidden{display: none}}
 
 @media screen and ( min-width: 768px ) and ( max-width: 991px ){
 
@@ -668,7 +672,9 @@ body{margin: 0}
 
 *[dir="rtl"] .tablet-offset-12{margin-right: 100%}
 
-.tablet-auto{-webkit-box-flex: 1;-ms-flex-positive: 1;flex-grow: 1}}
+.tablet-auto{-webkit-box-flex: 1;-ms-flex-positive: 1;flex-grow: 1}
+
+.tablet-hidden{display: none}}
 
 @media screen and ( min-width: 0 ) and ( max-width: 767px ){
 
@@ -796,27 +802,29 @@ body{margin: 0}
 
 *[dir="rtl"] .mobile-offset-12{margin-right: 100%}
 
-.mobile-auto{-webkit-box-flex: 1;-ms-flex-positive: 1;flex-grow: 1}}
+.mobile-auto{-webkit-box-flex: 1;-ms-flex-positive: 1;flex-grow: 1}
 
-.no-padding{padding: 0}
+.mobile-hidden{display: none}}
 
-.half-padding{padding: 6px;padding: 0.6rem}
+.no-padding{padding: 0 !important}
 
-.double-padding{padding: 24px;padding: 2.4rem}
+.half-padding{padding: 6px !important;padding: 0.6rem !important}
 
-.no-gaps{padding-right: 0;padding-left: 0}
+.double-padding{padding: 24px !important;padding: 2.4rem !important}
 
-.half-gaps{padding-right: 6px;padding-right: 0.6rem;padding-left: 6px;padding-left: 0.6rem}
+.no-gaps{padding-right: 0 !important;padding-left: 0 !important}
 
-.double-gaps{padding-right: 24px;padding-right: 2.4rem;padding-left: 24px;padding-left: 2.4rem}
+.half-gaps{padding-right: 6px !important;padding-right: 0.6rem !important;padding-left: 6px !important;padding-left: 0.6rem !important}
 
-.no-gutter{padding-top: 0;padding-bottom: 0}
+.double-gaps{padding-right: 24px !important;padding-right: 2.4rem !important;padding-left: 24px !important;padding-left: 2.4rem !important}
 
-.half-gutter{padding-top: 6px;padding-top: 0.6rem;padding-bottom: 6px;padding-bottom: 0.6rem}
+.no-gutter{padding-top: 0 !important;padding-bottom: 0 !important}
 
-.double-gutter{padding-top: 24px;padding-top: 2.4rem;padding-bottom: 24px;padding-bottom: 2.4rem}
+.half-gutter{padding-top: 6px !important;padding-top: 0.6rem !important;padding-bottom: 6px !important;padding-bottom: 0.6rem !important}
 
-.no-margin{margin: 0}
+.double-gutter{padding-top: 24px !important;padding-top: 2.4rem !important;padding-bottom: 24px !important;padding-bottom: 2.4rem !important}
+
+.no-margin{margin: 0 !important}
 
 /*
 =================================================================================================

@@ -1,6 +1,7 @@
 @import '__vars.css';
 @import 'mixins/_grid.css';
 
+
 /*
 =================================================================================================
 # 2 Grid
@@ -59,6 +60,8 @@ body{margin: 0}
 
   .desktop-auto{flex-grow: 1}
 
+  .desktop-hidden{display: none}
+
 }
 
 @each $device in laptop, tablet, mobile{
@@ -79,20 +82,22 @@ body{margin: 0}
 
     .$(device)-auto{flex-grow: 1}
 
+    .$(device)-hidden{display: none}
+
   }
 
 }
 
-.no-padding{padding: 0}
-.half-padding{padding: calc($gutter / 4)}
-.double-padding{padding: $gutter}
+.no-padding{padding: 0 !important}
+.half-padding{padding: calc($gutter / 4) !important}
+.double-padding{padding: $gutter !important}
 
-.no-gaps{padding: * 0}
-.half-gaps{padding: * calc($gutter / 4)}
-.double-gaps{padding: * $gutter}
+.no-gaps{padding: * 0 !important}
+.half-gaps{padding: * calc($gutter / 4) !important}
+.double-gaps{padding: * $gutter !important}
 
-.no-gutter{padding: 0 *}
-.half-gutter{padding: calc($gutter / 4) *}
-.double-gutter{padding: $gutter  *}
+.no-gutter{padding: 0 * !important}
+.half-gutter{padding: calc($gutter / 4) * !important}
+.double-gutter{padding: $gutter  * !important}
 
-.no-margin{margin: 0}
+.no-margin{margin: 0 !important}
